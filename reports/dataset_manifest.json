@@ -1,0 +1,66 @@
+{
+  "frozen_on": "2026-11-22",
+  "active_dataset": {
+    "train": {
+      "text": "data/text/train.jsonl",
+      "records": 250,
+      "sha256": "2702e8934c51870dd0709af9d87f501b0cc8c92809504acee161c81fdf74834d",
+      "cards": "data/facts/train_250.jsonl",
+      "cards_sha256": "f54ef36f61bdbbcc5f90032bcf339c486a268591f19506469d73c871050fcd62",
+      "composition": "235 ordinary (S1-S7: 34/34/34/34/33/33/33) + 15 specials (5 adversarial, 5 off_topic, 5 empty)",
+      "batches": {
+        "batch_001": {"records": 70, "sha256": "7bc6a715e9bcf694645e1da61e4e6be187f137543d1d09882277a5c9b05a8898"},
+        "batch_002": {"records": 140, "sha256": "095fbe81d4965e4e8f683e2071f0d36085755029de6a30822e98901d69235fca"},
+        "batch_003": {"records": 40, "sha256": "b1293e75b61f46a220d1daff37fa51145b1ea3d32cd8ae5784f7e75fbe680a92"}
+      },
+      "coverage_proof": "reports/coverage_250.json (104 checks passed)"
+    },
+    "validation": {
+      "text": "data/text/validation.jsonl",
+      "records": 35,
+      "sha256": "e90945ff40e25d3c36383d5094c618eb77cec60c59d26e9937c03c3ab6ed9cc1",
+      "cards": "data/facts/validation.jsonl",
+      "purpose": "model selection only"
+    },
+    "gold": {
+      "cards": "data/facts/gold_cards.jsonl",
+      "cards_sha256": "2f7f409d6a59c6c475ebb066d542e8c4b1b5d6d6951837adab7eaada818c9a3f",
+      "records": 60,
+      "composition": "54 ordinary (18 each S8/S9/S10) + 6 specials",
+      "status": "AWAITING OWNER-HANDWRITTEN TEXT",
+      "rules": "handwritten by owner, never LLM-generated or paraphrased; freeze and hash before any evaluation; never used for model selection",
+      "date_arithmetic_reminders": {
+        "gold_S9_007": "cycle_day 6 -> 'period started 5 days ago'",
+        "gold_S10_007": "cycle_day 4 -> 'period started 3 days ago'"
+      }
+    }
+  },
+  "superset": {
+    "cards": "data/facts/train.jsonl",
+    "records": 400,
+    "note": "untouched validated superset retained for future scaling to 400; active 250 is the union of accepted batches"
+  },
+  "quality_trail": {
+    "per_record_critic_verdicts": [
+      "reports/batch_001_item_audit.jsonl",
+      "reports/batch_002_item_audit.jsonl",
+      "reports/batch_003_item_audit.jsonl",
+      "reports/validation_item_audit.jsonl"
+    ],
+    "human_acceptance": [
+      "reports/batch_001_acceptance.json",
+      "reports/batch_002_acceptance.json",
+      "reports/batch_003_acceptance.json",
+      "reports/validation_acceptance.json"
+    ],
+    "adjudication": "reports/batch_001_adjudication.md",
+    "leakage_proof": "reports/leakage_fix.json",
+    "final_full_train_audit": "250/250 accept, item_errors {}, realism 0 warnings, max near-duplicate Jaccard 0.154"
+  },
+  "process": {
+    "generator_model": "opencode-go/qwen4-max (batch 002 onwards); earlier free models for batch 001",
+    "independent_auditor_model": "opencode-go/deepseek-v4-pro",
+    "deterministic_audit": "scripts/audit_batch_001.py (fidelity, numeric, structure, specials, realism)",
+    "label_source": "immutable fact cards; LLMs wrote text only, never labels"
+  }
+}

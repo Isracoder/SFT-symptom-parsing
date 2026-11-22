@@ -1,0 +1,23 @@
+{
+  "batch": "validation",
+  "decision": "ACCEPTED_ALL",
+  "records": 35,
+  "accepted_by": "human (project owner)",
+  "accepted_on": "2026-11-22",
+  "text_file": "data/text/validation.jsonl",
+  "text_sha256": "e90945ff40e25d3c36383d5094c618eb77cec60c59d26e9937c03c3ab6ed9cc1",
+  "card_file": "data/facts/validation.jsonl",
+  "gates": {
+    "deterministic_audit": "35/35 accept, item_errors {}, structure_compliance 1.0, schema_valid 35, realism 0 warnings",
+    "llm_semantic_audit": "35/35 ACCEPT, final gate SCALE NEXT BATCH after leakage repair",
+    "leakage_repair": "7 cards replaced from the unused superset pool + 7 texts regenerated; 2 gold cards de-mirrored; see reports/leakage_fix.json",
+    "cycle_day_flow_collisions_vs_train": 0,
+    "exact_full_fact_duplicates_vs_train": 0,
+    "max_near_paraphrase_jaccard_vs_train": 0.1364
+  },
+  "documented_deviations": [
+    "validation_S1_003 and validation_S3_003: cycle_day nudged (11->12, 13->14) because no collision-free verbatim donor existed",
+    "validation_S3_003 lost negation tag, validation_S7_003 lost negation + supplement_naming (no suitable donor); negation slice 15->14, no minimum affected"
+  ],
+  "note": "Validation is the model-selection split only. It is never used for training, and gold is never used for model selection."
+}

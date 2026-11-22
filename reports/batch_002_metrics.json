@@ -1,0 +1,3504 @@
+{
+  "batch": "batch_002",
+  "files": {
+    "text": "C:\\vs code files\\ML\\parser project\\data\\text\\batch_002.jsonl",
+    "cards": "C:\\vs code files\\ML\\parser project\\data\\facts\\batch_002.jsonl",
+    "out_dir": "C:\\vs code files\\ML\\parser project\\reports"
+  },
+  "realism_warnings": {
+    "passed": true,
+    "clean": true,
+    "warning_count": 0,
+    "hard_warning_count": 0,
+    "auto_reject": false,
+    "checks": [
+      {
+        "check": "fact_density_alignment",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "schema_dump",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "list_structure_density_cap",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "opener_frame_repetition",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "sentence_subject_repetition",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "length_variance",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      }
+    ],
+    "warnings": []
+  },
+  "semantic": {
+    "overall": {
+      "n": 140,
+      "accept": 140,
+      "reject": 0,
+      "semantic_accept_rate": 1.0,
+      "structure_compliance": 1.0,
+      "schema_valid": 140
+    },
+    "per_structure": {
+      "S1": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S2": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S3": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S4": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S5": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S6": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      },
+      "S7": {
+        "n": 20,
+        "accept": 20,
+        "reject": 0,
+        "structure_ok": 20,
+        "schema_ok": 20
+      }
+    },
+    "error_totals": {},
+    "items": [
+      {
+        "id": "train_S1_011",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_012",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_013",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_014",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_015",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_016",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_017",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_018",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_019",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_020",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_021",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_022",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_023",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_024",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_025",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_026",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_027",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_028",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_029",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_030",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_011",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_012",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_013",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_014",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_015",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_016",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_017",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_018",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_019",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_020",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_021",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_022",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_023",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_024",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_025",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_026",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_027",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_028",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_029",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_030",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_011",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_012",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_013",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_014",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_015",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_016",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_017",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_018",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_019",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_020",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_021",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_022",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_023",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_024",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_025",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_026",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_027",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_028",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_029",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_030",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_011",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_012",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_013",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_014",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_015",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_016",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_017",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_018",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_019",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_020",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_021",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_022",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_023",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_024",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_025",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_026",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_027",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_028",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_029",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_030",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_011",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_012",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_013",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_014",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_015",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_016",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_017",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_018",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_019",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_020",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_021",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_022",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_023",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_024",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_025",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_026",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_027",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_028",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_029",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_030",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_011",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_012",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_013",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_014",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_015",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_016",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_017",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_018",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_019",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_020",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_021",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_022",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_023",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_024",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_025",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_026",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_027",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_028",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_029",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_030",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_011",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_012",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_013",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_014",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_015",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_016",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_017",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_018",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_019",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_020",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_021",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_022",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_023",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_024",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_025",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_026",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_027",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_028",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_029",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_030",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      }
+    ]
+  },
+  "duplicates": {
+    "exact_groups": [],
+    "near_pairs_ge_0_85": [],
+    "max_pair": {
+      "jaccard": 0.1538,
+      "a": "train_S1_021",
+      "b": "train_S2_022"
+    },
+    "max_pair_numeric_normalized": {
+      "jaccard": 0.1538,
+      "a": "train_S1_021",
+      "b": "train_S2_022"
+    }
+  },
+  "held_out_structure_leaks": {
+    "form_marker_records": [],
+    "off_structure_records": [],
+    "count": 0
+  },
+  "fact_density": {
+    "records": [
+      {
+        "id": "train_S1_011",
+        "structure": "S1",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S1_012",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 12
+      },
+      {
+        "id": "train_S1_013",
+        "structure": "S1",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 8
+      },
+      {
+        "id": "train_S1_014",
+        "structure": "S1",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 20
+      },
+      {
+        "id": "train_S1_015",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 12
+      },
+      {
+        "id": "train_S1_016",
+        "structure": "S1",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S1_017",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 3
+      },
+      {
+        "id": "train_S1_018",
+        "structure": "S1",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 25
+      },
+      {
+        "id": "train_S1_019",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S1_020",
+        "structure": "S1",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S1_021",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 5
+      },
+      {
+        "id": "train_S1_022",
+        "structure": "S1",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S1_023",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 4
+      },
+      {
+        "id": "train_S1_024",
+        "structure": "S1",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S1_025",
+        "structure": "S1",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 19
+      },
+      {
+        "id": "train_S1_026",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 17
+      },
+      {
+        "id": "train_S1_027",
+        "structure": "S1",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S1_028",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S1_029",
+        "structure": "S1",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S1_030",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S2_011",
+        "structure": "S2",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 20
+      },
+      {
+        "id": "train_S2_012",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S2_013",
+        "structure": "S2",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 13
+      },
+      {
+        "id": "train_S2_014",
+        "structure": "S2",
+        "fact_count": 8,
+        "band": "7-9",
+        "words": 29
+      },
+      {
+        "id": "train_S2_015",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 14
+      },
+      {
+        "id": "train_S2_016",
+        "structure": "S2",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 19
+      },
+      {
+        "id": "train_S2_017",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S2_018",
+        "structure": "S2",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 23
+      },
+      {
+        "id": "train_S2_019",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 12
+      },
+      {
+        "id": "train_S2_020",
+        "structure": "S2",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 13
+      },
+      {
+        "id": "train_S2_021",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S2_022",
+        "structure": "S2",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S2_023",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S2_024",
+        "structure": "S2",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S2_025",
+        "structure": "S2",
+        "fact_count": 9,
+        "band": "7-9",
+        "words": 25
+      },
+      {
+        "id": "train_S2_026",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S2_027",
+        "structure": "S2",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 20
+      },
+      {
+        "id": "train_S2_028",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S2_029",
+        "structure": "S2",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S2_030",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S3_011",
+        "structure": "S3",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S3_012",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 4
+      },
+      {
+        "id": "train_S3_013",
+        "structure": "S3",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 9
+      },
+      {
+        "id": "train_S3_014",
+        "structure": "S3",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 19
+      },
+      {
+        "id": "train_S3_015",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 11
+      },
+      {
+        "id": "train_S3_016",
+        "structure": "S3",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S3_017",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S3_018",
+        "structure": "S3",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 23
+      },
+      {
+        "id": "train_S3_019",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S3_020",
+        "structure": "S3",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 11
+      },
+      {
+        "id": "train_S3_021",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 5
+      },
+      {
+        "id": "train_S3_022",
+        "structure": "S3",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S3_023",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S3_024",
+        "structure": "S3",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 8
+      },
+      {
+        "id": "train_S3_025",
+        "structure": "S3",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 25
+      },
+      {
+        "id": "train_S3_026",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 17
+      },
+      {
+        "id": "train_S3_027",
+        "structure": "S3",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 11
+      },
+      {
+        "id": "train_S3_028",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 4
+      },
+      {
+        "id": "train_S3_029",
+        "structure": "S3",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S3_030",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S4_011",
+        "structure": "S4",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 28
+      },
+      {
+        "id": "train_S4_012",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 16
+      },
+      {
+        "id": "train_S4_013",
+        "structure": "S4",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 21
+      },
+      {
+        "id": "train_S4_014",
+        "structure": "S4",
+        "fact_count": 8,
+        "band": "7-9",
+        "words": 44
+      },
+      {
+        "id": "train_S4_015",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 19
+      },
+      {
+        "id": "train_S4_016",
+        "structure": "S4",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 23
+      },
+      {
+        "id": "train_S4_017",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 11
+      },
+      {
+        "id": "train_S4_018",
+        "structure": "S4",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 42
+      },
+      {
+        "id": "train_S4_019",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 16
+      },
+      {
+        "id": "train_S4_020",
+        "structure": "S4",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S4_021",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S4_022",
+        "structure": "S4",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 22
+      },
+      {
+        "id": "train_S4_023",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S4_024",
+        "structure": "S4",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S4_025",
+        "structure": "S4",
+        "fact_count": 9,
+        "band": "7-9",
+        "words": 44
+      },
+      {
+        "id": "train_S4_026",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 23
+      },
+      {
+        "id": "train_S4_027",
+        "structure": "S4",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 28
+      },
+      {
+        "id": "train_S4_028",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S4_029",
+        "structure": "S4",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 24
+      },
+      {
+        "id": "train_S4_030",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 19
+      },
+      {
+        "id": "train_S5_011",
+        "structure": "S5",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 21
+      },
+      {
+        "id": "train_S5_012",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S5_013",
+        "structure": "S5",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S5_014",
+        "structure": "S5",
+        "fact_count": 8,
+        "band": "7-9",
+        "words": 24
+      },
+      {
+        "id": "train_S5_015",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S5_016",
+        "structure": "S5",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S5_017",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S5_018",
+        "structure": "S5",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 26
+      },
+      {
+        "id": "train_S5_019",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S5_020",
+        "structure": "S5",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S5_021",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S5_022",
+        "structure": "S5",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 18
+      },
+      {
+        "id": "train_S5_023",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 5
+      },
+      {
+        "id": "train_S5_024",
+        "structure": "S5",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S5_025",
+        "structure": "S5",
+        "fact_count": 9,
+        "band": "7-9",
+        "words": 25
+      },
+      {
+        "id": "train_S5_026",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 16
+      },
+      {
+        "id": "train_S5_027",
+        "structure": "S5",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S5_028",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S5_029",
+        "structure": "S5",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S5_030",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S6_011",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_012",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 5
+      },
+      {
+        "id": "train_S6_013",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 6
+      },
+      {
+        "id": "train_S6_014",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_015",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_016",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_017",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_018",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_019",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_020",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_021",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_022",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_023",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_024",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_025",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 6
+      },
+      {
+        "id": "train_S6_026",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_027",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 4
+      },
+      {
+        "id": "train_S6_028",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_029",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 4
+      },
+      {
+        "id": "train_S6_030",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S7_011",
+        "structure": "S7",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S7_012",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 11
+      },
+      {
+        "id": "train_S7_013",
+        "structure": "S7",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S7_014",
+        "structure": "S7",
+        "fact_count": 8,
+        "band": "7-9",
+        "words": 33
+      },
+      {
+        "id": "train_S7_015",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 19
+      },
+      {
+        "id": "train_S7_016",
+        "structure": "S7",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S7_017",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S7_018",
+        "structure": "S7",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 33
+      },
+      {
+        "id": "train_S7_019",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S7_020",
+        "structure": "S7",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S7_021",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S7_022",
+        "structure": "S7",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 17
+      },
+      {
+        "id": "train_S7_023",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S7_024",
+        "structure": "S7",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S7_025",
+        "structure": "S7",
+        "fact_count": 9,
+        "band": "7-9",
+        "words": 32
+      },
+      {
+        "id": "train_S7_026",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 20
+      },
+      {
+        "id": "train_S7_027",
+        "structure": "S7",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 18
+      },
+      {
+        "id": "train_S7_028",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S7_029",
+        "structure": "S7",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 20
+      },
+      {
+        "id": "train_S7_030",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 12
+      }
+    ],
+    "overall": {
+      "counts": {
+        "1": 20,
+        "2-3": 54,
+        "4-6": 54,
+        "7-9": 12,
+        "other": 0
+      },
+      "word_stats": {
+        "1": {
+          "n": 20,
+          "min": 3,
+          "median": 3.0,
+          "mean": 3.5,
+          "max": 6,
+          "stddev": 0.97,
+          "count": 20
+        },
+        "2-3": {
+          "n": 54,
+          "min": 3,
+          "median": 9.5,
+          "mean": 10.3,
+          "max": 23,
+          "stddev": 4.63,
+          "count": 54
+        },
+        "4-6": {
+          "n": 54,
+          "min": 8,
+          "median": 16.0,
+          "mean": 17.39,
+          "max": 42,
+          "stddev": 6.21,
+          "count": 54
+        },
+        "7-9": {
+          "n": 12,
+          "min": 19,
+          "median": 25.0,
+          "mean": 28.25,
+          "max": 44,
+          "stddev": 8.28,
+          "count": 12
+        },
+        "other": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "mean": null,
+          "max": null,
+          "stddev": null,
+          "count": 0
+        }
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 3,
+            "median": 8,
+            "mean": 8.56,
+            "max": 17,
+            "stddev": 4.25,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 8,
+            "median": 14,
+            "mean": 14.89,
+            "max": 25,
+            "stddev": 4.43,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 19,
+            "median": 19.5,
+            "mean": 19.5,
+            "max": 20,
+            "stddev": 0.5,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S2": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 6,
+            "median": 9,
+            "mean": 9.44,
+            "max": 14,
+            "stddev": 2.83,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 12,
+            "median": 16,
+            "mean": 16.67,
+            "max": 23,
+            "stddev": 3.71,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 25,
+            "median": 27.0,
+            "mean": 27,
+            "max": 29,
+            "stddev": 2.0,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S3": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 4,
+            "median": 6,
+            "mean": 7.44,
+            "max": 17,
+            "stddev": 3.95,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 8,
+            "median": 12,
+            "mean": 12.89,
+            "max": 23,
+            "stddev": 4.23,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 19,
+            "median": 22.0,
+            "mean": 22,
+            "max": 25,
+            "stddev": 3.0,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S4": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 7,
+            "median": 16,
+            "mean": 14.44,
+            "max": 23,
+            "stddev": 5.12,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 15,
+            "median": 23,
+            "mean": 24.44,
+            "max": 42,
+            "stddev": 7.44,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 44,
+            "median": 44.0,
+            "mean": 44,
+            "max": 44,
+            "stddev": 0.0,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S5": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 5,
+            "median": 9,
+            "mean": 9.56,
+            "max": 16,
+            "stddev": 3.13,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 12,
+            "median": 16,
+            "mean": 16.78,
+            "max": 26,
+            "stddev": 4.18,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 24,
+            "median": 24.5,
+            "mean": 24.5,
+            "max": 25,
+            "stddev": 0.5,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S6": {
+        "counts": {
+          "1": 20,
+          "2-3": 0,
+          "4-6": 0,
+          "7-9": 0,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 20,
+            "min": 3,
+            "median": 3.0,
+            "mean": 3.5,
+            "max": 6,
+            "stddev": 0.97,
+            "count": 20
+          },
+          "2-3": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "4-6": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "7-9": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S7": {
+        "counts": {
+          "1": 0,
+          "2-3": 9,
+          "4-6": 9,
+          "7-9": 2,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 9,
+            "min": 8,
+            "median": 11,
+            "mean": 12.33,
+            "max": 20,
+            "stddev": 4.14,
+            "count": 9
+          },
+          "4-6": {
+            "n": 9,
+            "min": 14,
+            "median": 17,
+            "mean": 18.67,
+            "max": 33,
+            "stddev": 5.31,
+            "count": 9
+          },
+          "7-9": {
+            "n": 2,
+            "min": 32,
+            "median": 32.5,
+            "mean": 32.5,
+            "max": 33,
+            "stddev": 0.5,
+            "count": 2
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      }
+    }
+  },
+  "schema_dump": {
+    "skipped_structures": [
+      "S1",
+      "S3"
+    ],
+    "skipped_count": 40,
+    "skipped_records": [
+      "train_S1_011",
+      "train_S1_012",
+      "train_S1_013",
+      "train_S1_014",
+      "train_S1_015",
+      "train_S1_016",
+      "train_S1_017",
+      "train_S1_018",
+      "train_S1_019",
+      "train_S1_020",
+      "train_S1_021",
+      "train_S1_022",
+      "train_S1_023",
+      "train_S1_024",
+      "train_S1_025",
+      "train_S1_026",
+      "train_S1_027",
+      "train_S1_028",
+      "train_S1_029",
+      "train_S1_030",
+      "train_S3_011",
+      "train_S3_012",
+      "train_S3_013",
+      "train_S3_014",
+      "train_S3_015",
+      "train_S3_016",
+      "train_S3_017",
+      "train_S3_018",
+      "train_S3_019",
+      "train_S3_020",
+      "train_S3_021",
+      "train_S3_022",
+      "train_S3_023",
+      "train_S3_024",
+      "train_S3_025",
+      "train_S3_026",
+      "train_S3_027",
+      "train_S3_028",
+      "train_S3_029",
+      "train_S3_030"
+    ],
+    "records": [],
+    "count_by_structure": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0,
+      "S7": 0
+    },
+    "overall_count": 0
+  },
+  "list_structure_density_cap": {
+    "structures": [
+      "S1",
+      "S3"
+    ],
+    "max_facts": 7,
+    "records": [],
+    "overall_count": 0
+  },
+  "openers": {
+    "tokens": 4,
+    "overall_top_frames": [
+      {
+        "frame": "3 5 4 hours",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "acne acting up",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "after dark 8 9h",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "after lunch diarrhea is",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "after work took a",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "afternoon already spotting today",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "ah no headache and",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "alright medium flow mood",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "am i overthinkng this",
+        "count": 1,
+        "fraction": 0.0071
+      },
+      {
+        "frame": "amazing sleep honestly",
+        "count": 1,
+        "fraction": 0.0071
+      }
+    ],
+    "by_structure": {
+      "S1": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "after dark 8 9h",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "alright medium flow mood",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "anyway 6 5 7h",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "daybreak took a painkiller",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "evening dry skin mild",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "finally took a painkiller",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "late afternoon medium flow",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "nighttime dry skin poor",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "no pelvic pain oily",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "no spotting took a",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S2": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "afternoon already spotting today",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "dusk now normal hair",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "early hours and my",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "finally some quiet no",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i got 7 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i have no spotting",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i managed 7 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i only slept 4",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i ve got no",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "midnight spotting acne sleep",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S3": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "energy low hair normal",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "evening skin oily energy",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "evening sleep good roughly",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "flow medium painkiller yes",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "flow none skin normal",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "hair growth skin acne",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "night mood neutral painkiller",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "night nausea no sleep",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "painkiller yes sleep 3",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "painkiller yes sleep fair",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S4": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "after lunch diarrhea is",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "after work took a",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "ah no headache and",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "anyway mood swings and",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "honestly no painkiller and",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "late afternoon no painkiller",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "late evening took my",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "like the flow is",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "man took a painkiller",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "midmorning no spotting and",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S5": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "3 5 4 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "b12 is taken no",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "flow is medium mood",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i got 4 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i have bad insomna",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i have no breast",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i have no symptoms",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i see no blood",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i take calcium sleep",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "i take omega 3",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S6": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "acne acting up",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "amazing sleep honestly",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "energy kinda mid",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "energy throught the roof",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "hella dry hair",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "like 6 5 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "magnesium before bed",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "maybe 9 5 hours",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "mood great omg",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "mood mid anyway",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S7": {
+        "n": 20,
+        "distinct_frames": 20,
+        "top_frames": [
+          {
+            "frame": "am i overthinkng this",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "do i merge these",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "do i split this",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "does this look normal",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "how do i rate",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "how heavy is my",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "is there a scale",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "is this all one",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "is this norml for",
+            "count": 1,
+            "fraction": 0.05
+          },
+          {
+            "frame": "is this okya no",
+            "count": 1,
+            "fraction": 0.05
+          }
+        ],
+        "frames_over_threshold": []
+      }
+    },
+    "most_common_frame_by_structure": {
+      "S1": "after dark 8 9h",
+      "S2": "afternoon already spotting today",
+      "S3": "energy low hair normal",
+      "S4": "after lunch diarrhea is",
+      "S5": "3 5 4 hours",
+      "S6": "acne acting up",
+      "S7": "am i overthinkng this"
+    }
+  },
+  "sentence_subjects": {
+    "classes": [
+      "my period",
+      "i",
+      "today",
+      "no",
+      "bare_fragment",
+      "other"
+    ],
+    "overall": {
+      "my period": {
+        "count": 0,
+        "fraction": 0.0
+      },
+      "i": {
+        "count": 12,
+        "fraction": 0.0857
+      },
+      "today": {
+        "count": 1,
+        "fraction": 0.0071
+      },
+      "no": {
+        "count": 6,
+        "fraction": 0.0429
+      },
+      "bare_fragment": {
+        "count": 54,
+        "fraction": 0.3857
+      },
+      "other": {
+        "count": 67,
+        "fraction": 0.4786
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 2,
+          "fraction": 0.1
+        },
+        "bare_fragment": {
+          "count": 15,
+          "fraction": 0.75
+        },
+        "other": {
+          "count": 3,
+          "fraction": 0.15
+        }
+      },
+      "S2": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 5,
+          "fraction": 0.25
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 1,
+          "fraction": 0.05
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 14,
+          "fraction": 0.7
+        }
+      },
+      "S3": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 15,
+          "fraction": 0.75
+        },
+        "other": {
+          "count": 5,
+          "fraction": 0.25
+        }
+      },
+      "S4": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 8,
+          "fraction": 0.4
+        },
+        "other": {
+          "count": 12,
+          "fraction": 0.6
+        }
+      },
+      "S5": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 7,
+          "fraction": 0.35
+        },
+        "today": {
+          "count": 1,
+          "fraction": 0.05
+        },
+        "no": {
+          "count": 1,
+          "fraction": 0.05
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 11,
+          "fraction": 0.55
+        }
+      },
+      "S6": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 2,
+          "fraction": 0.1
+        },
+        "bare_fragment": {
+          "count": 16,
+          "fraction": 0.8
+        },
+        "other": {
+          "count": 2,
+          "fraction": 0.1
+        }
+      },
+      "S7": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 20,
+          "fraction": 1.0
+        }
+      }
+    }
+  },
+  "length_variance": {
+    "overall": {
+      "n": 140,
+      "min": 3,
+      "median": 12.0,
+      "mean": 13.6,
+      "max": 44,
+      "stddev": 8.48
+    },
+    "by_structure": {
+      "S1": {
+        "n": 20,
+        "min": 3,
+        "median": 12.0,
+        "mean": 12.5,
+        "max": 25,
+        "stddev": 5.61,
+        "warning": false
+      },
+      "S2": {
+        "n": 20,
+        "min": 6,
+        "median": 13.0,
+        "mean": 14.45,
+        "max": 29,
+        "stddev": 6.28,
+        "warning": false
+      },
+      "S3": {
+        "n": 20,
+        "min": 4,
+        "median": 11.0,
+        "mean": 11.35,
+        "max": 25,
+        "stddev": 5.94,
+        "warning": false
+      },
+      "S4": {
+        "n": 20,
+        "min": 7,
+        "median": 20.0,
+        "mean": 21.9,
+        "max": 44,
+        "stddev": 10.65,
+        "warning": false
+      },
+      "S5": {
+        "n": 20,
+        "min": 5,
+        "median": 14.0,
+        "mean": 14.3,
+        "max": 26,
+        "stddev": 5.97,
+        "warning": false
+      },
+      "S6": {
+        "n": 20,
+        "min": 3,
+        "median": 3.0,
+        "mean": 3.5,
+        "max": 6,
+        "stddev": 0.97,
+        "warning": false
+      },
+      "S7": {
+        "n": 20,
+        "min": 8,
+        "median": 17.0,
+        "mean": 17.2,
+        "max": 33,
+        "stddev": 7.45,
+        "warning": false
+      }
+    }
+  },
+  "legacy_length_stats": {
+    "overall": {
+      "n": 140,
+      "words": {
+        "min": 3,
+        "median": 12.0,
+        "mean": 13.6,
+        "max": 44
+      },
+      "chars": {
+        "min": 11,
+        "median": 71.5,
+        "mean": 77.31,
+        "max": 219
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "n": 20,
+        "words": {
+          "min": 3,
+          "median": 12.0,
+          "mean": 12.5,
+          "max": 25
+        },
+        "chars": {
+          "min": 21,
+          "median": 78.5,
+          "mean": 79.5,
+          "max": 177
+        }
+      },
+      "S2": {
+        "n": 20,
+        "words": {
+          "min": 6,
+          "median": 13.0,
+          "mean": 14.45,
+          "max": 29
+        },
+        "chars": {
+          "min": 31,
+          "median": 74.5,
+          "mean": 85.05,
+          "max": 173
+        }
+      },
+      "S3": {
+        "n": 20,
+        "words": {
+          "min": 4,
+          "median": 11.0,
+          "mean": 11.35,
+          "max": 25
+        },
+        "chars": {
+          "min": 26,
+          "median": 64.5,
+          "mean": 70.95,
+          "max": 170
+        }
+      },
+      "S4": {
+        "n": 20,
+        "words": {
+          "min": 7,
+          "median": 20.0,
+          "mean": 21.9,
+          "max": 44
+        },
+        "chars": {
+          "min": 36,
+          "median": 100.0,
+          "mean": 111.95,
+          "max": 219
+        }
+      },
+      "S5": {
+        "n": 20,
+        "words": {
+          "min": 5,
+          "median": 14.0,
+          "mean": 14.3,
+          "max": 26
+        },
+        "chars": {
+          "min": 26,
+          "median": 77.5,
+          "mean": 79.2,
+          "max": 163
+        }
+      },
+      "S6": {
+        "n": 20,
+        "words": {
+          "min": 3,
+          "median": 3.0,
+          "mean": 3.5,
+          "max": 6
+        },
+        "chars": {
+          "min": 11,
+          "median": 19.0,
+          "mean": 18.65,
+          "max": 25
+        }
+      },
+      "S7": {
+        "n": 20,
+        "words": {
+          "min": 8,
+          "median": 17.0,
+          "mean": 17.2,
+          "max": 33
+        },
+        "chars": {
+          "min": 44,
+          "median": 88.0,
+          "mean": 95.85,
+          "max": 198
+        }
+      }
+    },
+    "repeated_openers_3tok": [
+      {
+        "count": 3,
+        "frame": "i have no"
+      },
+      {
+        "count": 2,
+        "frame": "painkiller yes sleep"
+      },
+      {
+        "count": 2,
+        "frame": "supps some other"
+      }
+    ],
+    "repeated_frames_5tok": [
+      {
+        "count": 7,
+        "frame": "no spotting"
+      },
+      {
+        "count": 5,
+        "frame": "no painkiller"
+      },
+      {
+        "count": 5,
+        "frame": "mood good"
+      },
+      {
+        "count": 4,
+        "frame": "no symptoms"
+      },
+      {
+        "count": 4,
+        "frame": "no bleeding"
+      },
+      {
+        "count": 4,
+        "frame": "sleep poor"
+      },
+      {
+        "count": 3,
+        "frame": "took painkiller"
+      },
+      {
+        "count": 3,
+        "frame": "flow is medium"
+      },
+      {
+        "count": 3,
+        "frame": "sleep was good"
+      },
+      {
+        "count": 2,
+        "frame": "no spotting took a painkiller"
+      },
+      {
+        "count": 2,
+        "frame": "took calcium"
+      },
+      {
+        "count": 2,
+        "frame": "took a painkiller"
+      },
+      {
+        "count": 2,
+        "frame": "took iron"
+      },
+      {
+        "count": 2,
+        "frame": "heavy flow"
+      },
+      {
+        "count": 2,
+        "frame": "iron taken"
+      },
+      {
+        "count": 2,
+        "frame": "skin has acne"
+      },
+      {
+        "count": 2,
+        "frame": "flow medium"
+      },
+      {
+        "count": 2,
+        "frame": "sleep good"
+      },
+      {
+        "count": 2,
+        "frame": "sleep is fair"
+      },
+      {
+        "count": 2,
+        "frame": "got 6 5 7 hours"
+      },
+      {
+        "count": 2,
+        "frame": "calcium taken"
+      },
+      {
+        "count": 2,
+        "frame": "skin is dry"
+      },
+      {
+        "count": 2,
+        "frame": "mood is good"
+      },
+      {
+        "count": 2,
+        "frame": "energy is high"
+      },
+      {
+        "count": 2,
+        "frame": "slept 8 9 hours"
+      },
+      {
+        "count": 2,
+        "frame": "energy low"
+      },
+      {
+        "count": 2,
+        "frame": "spotting"
+      },
+      {
+        "count": 2,
+        "frame": "hair normal"
+      },
+      {
+        "count": 2,
+        "frame": "hair oily"
+      }
+    ]
+  },
+  "coverage": {
+    "run": false,
+    "errors": [],
+    "summary": {
+      "skipped": true,
+      "reason": "non-default --text/--cards; dataset coverage checks are batch_001-specific (pass --coverage to force them)"
+    }
+  }
+}

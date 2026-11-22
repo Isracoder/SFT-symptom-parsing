@@ -1,0 +1,2473 @@
+{
+  "boolean_values": {
+    "no_symptoms_asserted": {
+      "true": {
+        "gold": 6,
+        "train": 47,
+        "validation": 0
+      }
+    },
+    "painkiller": {
+      "false": {
+        "gold": 5,
+        "train": 31,
+        "validation": 1
+      },
+      "true": {
+        "gold": 15,
+        "train": 65,
+        "validation": 4
+      }
+    },
+    "spotting": {
+      "false": {
+        "gold": 15,
+        "train": 50,
+        "validation": 4
+      },
+      "true": {
+        "gold": 12,
+        "train": 42,
+        "validation": 4
+      }
+    }
+  },
+  "counts_by_split": {
+    "gold": {
+      "by_type": {
+        "adversarial": 2,
+        "empty": 2,
+        "off_topic": 2,
+        "ordinary": 54
+      },
+      "total": 60
+    },
+    "train": {
+      "by_type": {
+        "adversarial": 5,
+        "empty": 5,
+        "off_topic": 5,
+        "ordinary": 385
+      },
+      "total": 400
+    },
+    "validation": {
+      "by_type": {
+        "adversarial": 0,
+        "empty": 0,
+        "off_topic": 0,
+        "ordinary": 35
+      },
+      "total": 35
+    }
+  },
+  "counts_by_structure": {
+    "S1": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 3,
+        "ordinary": 55,
+        "total": 58
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S10": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 18,
+        "total": 18
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      }
+    },
+    "S2": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 2,
+        "ordinary": 55,
+        "total": 57
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S3": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 55,
+        "total": 55
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S4": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 55,
+        "total": 55
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S5": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 55,
+        "total": 55
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S6": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 55,
+        "total": 55
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S7": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 55,
+        "total": 55
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 5,
+        "total": 5
+      }
+    },
+    "S8": {
+      "gold": {
+        "adversarial": 2,
+        "ordinary": 18,
+        "total": 20
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      }
+    },
+    "S9": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 18,
+        "total": 18
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      }
+    },
+    "none": {
+      "gold": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 4
+      },
+      "train": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 10
+      },
+      "validation": {
+        "adversarial": 0,
+        "ordinary": 0,
+        "total": 0
+      }
+    }
+  },
+  "coverage_slices": {
+    "four_plus_symptoms": {
+      "gold": 6,
+      "minimum": {
+        "gold": 6,
+        "train": 30
+      },
+      "passed": true,
+      "train": 36,
+      "validation": 6
+    },
+    "global_negation": {
+      "gold": 6,
+      "minimum": {
+        "gold": 4,
+        "train": 20
+      },
+      "passed": true,
+      "train": 47,
+      "validation": 0
+    },
+    "hedging": {
+      "gold": 9,
+      "train": 54,
+      "validation": 7
+    },
+    "long_multi_symptom": {
+      "gold": 6,
+      "train": 36,
+      "validation": 6
+    },
+    "negation": {
+      "gold": 35,
+      "minimum": {
+        "gold": 8,
+        "train": 40
+      },
+      "passed": true,
+      "train": 185,
+      "validation": 15
+    },
+    "typos": {
+      "gold": 6,
+      "train": 49,
+      "validation": 6
+    }
+  },
+  "density_histogram": {
+    "batch_001": {
+      "S1": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S2": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S3": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S4": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S5": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S6": {
+        "bands": {
+          "1": 10,
+          "2-3": 0,
+          "4-6": 0,
+          "7-9": 0
+        },
+        "by_fact_count": {
+          "1": 10,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      },
+      "S7": {
+        "bands": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 10
+      }
+    },
+    "gold": {
+      "S10": {
+        "bands": {
+          "1": 0,
+          "2-3": 6,
+          "4-6": 6,
+          "7-9": 6
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2
+        },
+        "records": 18
+      },
+      "S8": {
+        "bands": {
+          "1": 0,
+          "2-3": 6,
+          "4-6": 6,
+          "7-9": 6
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2
+        },
+        "records": 18
+      },
+      "S9": {
+        "bands": {
+          "1": 0,
+          "2-3": 6,
+          "4-6": 6,
+          "7-9": 6
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2
+        },
+        "records": 18
+      }
+    },
+    "train": {
+      "S1": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 5,
+          "8": 0,
+          "9": 0
+        },
+        "records": 55
+      },
+      "S2": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 2,
+          "8": 2,
+          "9": 1
+        },
+        "records": 55
+      },
+      "S3": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 5,
+          "8": 0,
+          "9": 0
+        },
+        "records": 55
+      },
+      "S4": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 2,
+          "8": 2,
+          "9": 1
+        },
+        "records": 55
+      },
+      "S5": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 2,
+          "8": 2,
+          "9": 1
+        },
+        "records": 55
+      },
+      "S6": {
+        "bands": {
+          "1": 55,
+          "2-3": 0,
+          "4-6": 0,
+          "7-9": 0
+        },
+        "by_fact_count": {
+          "1": 55,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        },
+        "records": 55
+      },
+      "S7": {
+        "bands": {
+          "1": 0,
+          "2-3": 25,
+          "4-6": 25,
+          "7-9": 5
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 15,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 2,
+          "8": 2,
+          "9": 1
+        },
+        "records": 55
+      }
+    },
+    "validation": {
+      "S1": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S2": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S3": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S4": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S5": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S6": {
+        "bands": {
+          "1": 5,
+          "2-3": 0,
+          "4-6": 0,
+          "7-9": 0
+        },
+        "by_fact_count": {
+          "1": 5,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      },
+      "S7": {
+        "bands": {
+          "1": 0,
+          "2-3": 2,
+          "4-6": 2,
+          "7-9": 1
+        },
+        "by_fact_count": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "records": 5
+      }
+    }
+  },
+  "enum_values": {
+    "blood_clot_severity": {
+      "large": {
+        "gold": 2,
+        "train": 5,
+        "validation": 1
+      },
+      "light": {
+        "gold": 1,
+        "train": 5,
+        "validation": 1
+      },
+      "moderate": {
+        "gold": 2,
+        "train": 4,
+        "validation": 2
+      },
+      "null": {
+        "gold": 1,
+        "train": 4,
+        "validation": 2
+      }
+    },
+    "energy_level": {
+      "high": {
+        "gold": 7,
+        "train": 26,
+        "validation": 1
+      },
+      "low": {
+        "gold": 6,
+        "train": 34,
+        "validation": 4
+      },
+      "medium": {
+        "gold": 7,
+        "train": 35,
+        "validation": 2
+      }
+    },
+    "flow": {
+      "extremely_heavy": {
+        "gold": 4,
+        "train": 21,
+        "validation": 3
+      },
+      "heavy": {
+        "gold": 5,
+        "train": 32,
+        "validation": 3
+      },
+      "light": {
+        "gold": 3,
+        "train": 32,
+        "validation": 2
+      },
+      "medium": {
+        "gold": 9,
+        "train": 47,
+        "validation": 8
+      },
+      "none": {
+        "gold": 4,
+        "train": 19,
+        "validation": 3
+      }
+    },
+    "hair": {
+      "dry": {
+        "gold": 4,
+        "train": 17,
+        "validation": 2
+      },
+      "growth": {
+        "gold": 1,
+        "train": 20,
+        "validation": 2
+      },
+      "loss": {
+        "gold": 5,
+        "train": 15,
+        "validation": 3
+      },
+      "normal": {
+        "gold": 3,
+        "train": 19,
+        "validation": 1
+      },
+      "oily": {
+        "gold": 5,
+        "train": 13,
+        "validation": 4
+      }
+    },
+    "mood": {
+      "good": {
+        "gold": 15,
+        "train": 37,
+        "validation": 3
+      },
+      "low": {
+        "gold": 3,
+        "train": 24,
+        "validation": 0
+      },
+      "neutral": {
+        "gold": 7,
+        "train": 36,
+        "validation": 2
+      }
+    },
+    "skin": {
+      "acne": {
+        "gold": 6,
+        "train": 25,
+        "validation": 3
+      },
+      "dry": {
+        "gold": 5,
+        "train": 22,
+        "validation": 1
+      },
+      "normal": {
+        "gold": 3,
+        "train": 23,
+        "validation": 0
+      },
+      "oily": {
+        "gold": 2,
+        "train": 23,
+        "validation": 3
+      }
+    },
+    "sleep_quality": {
+      "fair": {
+        "gold": 9,
+        "train": 29,
+        "validation": 2
+      },
+      "good": {
+        "gold": 4,
+        "train": 28,
+        "validation": 4
+      },
+      "poor": {
+        "gold": 3,
+        "train": 35,
+        "validation": 3
+      }
+    },
+    "supplements": {
+      "b12": {
+        "gold": 4,
+        "train": 17,
+        "validation": 1
+      },
+      "calcium": {
+        "gold": 4,
+        "train": 19,
+        "validation": 2
+      },
+      "folate": {
+        "gold": 2,
+        "train": 14,
+        "validation": 2
+      },
+      "iron": {
+        "gold": 3,
+        "train": 15,
+        "validation": 3
+      },
+      "magnesium": {
+        "gold": 4,
+        "train": 13,
+        "validation": 4
+      },
+      "omega_3": {
+        "gold": 3,
+        "train": 20,
+        "validation": 2
+      },
+      "other": {
+        "gold": 4,
+        "train": 11,
+        "validation": 2
+      },
+      "probiotic": {
+        "gold": 2,
+        "train": 21,
+        "validation": 2
+      },
+      "vitamin_d": {
+        "gold": 3,
+        "train": 19,
+        "validation": 3
+      }
+    },
+    "symptom_name": {
+      "back_pain": {
+        "gold": 2,
+        "train": 17,
+        "validation": 5
+      },
+      "bloating": {
+        "gold": 1,
+        "train": 25,
+        "validation": 2
+      },
+      "blood_clots": {
+        "gold": 6,
+        "train": 18,
+        "validation": 6
+      },
+      "breast_tenderness": {
+        "gold": 2,
+        "train": 23,
+        "validation": 6
+      },
+      "constipation": {
+        "gold": 7,
+        "train": 30,
+        "validation": 4
+      },
+      "cramps": {
+        "gold": 4,
+        "train": 22,
+        "validation": 2
+      },
+      "cravings": {
+        "gold": 4,
+        "train": 21,
+        "validation": 0
+      },
+      "diarrhea": {
+        "gold": 3,
+        "train": 26,
+        "validation": 4
+      },
+      "dizziness": {
+        "gold": 3,
+        "train": 21,
+        "validation": 2
+      },
+      "fatigue": {
+        "gold": 4,
+        "train": 26,
+        "validation": 3
+      },
+      "headache": {
+        "gold": 8,
+        "train": 20,
+        "validation": 4
+      },
+      "insomnia": {
+        "gold": 7,
+        "train": 28,
+        "validation": 4
+      },
+      "mood_swings": {
+        "gold": 4,
+        "train": 18,
+        "validation": 2
+      },
+      "nausea": {
+        "gold": 5,
+        "train": 18,
+        "validation": 1
+      },
+      "pelvic_pain": {
+        "gold": 5,
+        "train": 23,
+        "validation": 2
+      }
+    },
+    "symptom_severity": {
+      "mild": {
+        "gold": 14,
+        "train": 80,
+        "validation": 10
+      },
+      "moderate": {
+        "gold": 12,
+        "train": 68,
+        "validation": 9
+      },
+      "null": {
+        "gold": 18,
+        "train": 89,
+        "validation": 13
+      },
+      "severe": {
+        "gold": 15,
+        "train": 81,
+        "validation": 9
+      }
+    }
+  },
+  "field_non_null": {
+    "cycle_day": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 2
+        },
+        "count": 6,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 7,
+          "S10": 0,
+          "S2": 7,
+          "S3": 7,
+          "S4": 7,
+          "S5": 7,
+          "S6": 0,
+          "S7": 7,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 42,
+        "structure_count": 6
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 6,
+        "structure_count": 6
+      }
+    },
+    "denied": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 9,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 6
+        },
+        "count": 23,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 21,
+          "S10": 0,
+          "S2": 12,
+          "S3": 11,
+          "S4": 14,
+          "S5": 13,
+          "S6": 4,
+          "S7": 15,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 90,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 1,
+          "S3": 2,
+          "S4": 2,
+          "S5": 1,
+          "S6": 1,
+          "S7": 3,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 12,
+        "structure_count": 7
+      }
+    },
+    "energy_level": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 6,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 7,
+          "S9": 7
+        },
+        "count": 20,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 16,
+          "S10": 0,
+          "S2": 18,
+          "S3": 15,
+          "S4": 10,
+          "S5": 11,
+          "S6": 5,
+          "S7": 20,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 95,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 2,
+          "S5": 2,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 7,
+        "structure_count": 5
+      }
+    },
+    "flow": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 7,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 10,
+          "S9": 8
+        },
+        "count": 25,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 22,
+          "S10": 0,
+          "S2": 23,
+          "S3": 24,
+          "S4": 23,
+          "S5": 27,
+          "S6": 4,
+          "S7": 28,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 151,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 4,
+          "S10": 0,
+          "S2": 3,
+          "S3": 2,
+          "S4": 3,
+          "S5": 4,
+          "S6": 1,
+          "S7": 2,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 19,
+        "structure_count": 7
+      }
+    },
+    "hair": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 3,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 7,
+          "S9": 8
+        },
+        "count": 18,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 9,
+          "S10": 0,
+          "S2": 16,
+          "S3": 10,
+          "S4": 15,
+          "S5": 13,
+          "S6": 5,
+          "S7": 16,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 84,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 3,
+          "S10": 0,
+          "S2": 2,
+          "S3": 3,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 2,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 12,
+        "structure_count": 6
+      }
+    },
+    "mood": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 6,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 11
+        },
+        "count": 25,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 17,
+          "S10": 0,
+          "S2": 20,
+          "S3": 11,
+          "S4": 15,
+          "S5": 17,
+          "S6": 5,
+          "S7": 12,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 97,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 2,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 5,
+        "structure_count": 4
+      }
+    },
+    "no_symptoms_asserted": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 2
+        },
+        "count": 6,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 7,
+          "S10": 0,
+          "S2": 7,
+          "S3": 7,
+          "S4": 7,
+          "S5": 7,
+          "S6": 5,
+          "S7": 7,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 47,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0,
+        "structure_count": 0
+      }
+    },
+    "painkiller": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 6,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 6
+        },
+        "count": 20,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 15,
+          "S10": 0,
+          "S2": 17,
+          "S3": 17,
+          "S4": 17,
+          "S5": 13,
+          "S6": 4,
+          "S7": 13,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 96,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 0,
+          "S5": 2,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 5,
+        "structure_count": 4
+      }
+    },
+    "skin": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 5,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 3
+        },
+        "count": 16,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 16,
+          "S10": 0,
+          "S2": 15,
+          "S3": 18,
+          "S4": 12,
+          "S5": 14,
+          "S6": 5,
+          "S7": 13,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 93,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 0,
+          "S3": 2,
+          "S4": 2,
+          "S5": 2,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 7,
+        "structure_count": 4
+      }
+    },
+    "sleep_hours": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 7,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 6,
+          "S9": 8
+        },
+        "count": 21,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 17,
+          "S10": 0,
+          "S2": 15,
+          "S3": 21,
+          "S4": 22,
+          "S5": 21,
+          "S6": 5,
+          "S7": 17,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 118,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 2,
+          "S3": 1,
+          "S4": 1,
+          "S5": 2,
+          "S6": 0,
+          "S7": 2,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 10,
+        "structure_count": 6
+      }
+    },
+    "sleep_quality": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 10,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 4
+        },
+        "count": 16,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 16,
+          "S10": 0,
+          "S2": 9,
+          "S3": 15,
+          "S4": 15,
+          "S5": 17,
+          "S6": 5,
+          "S7": 15,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 92,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 1,
+          "S3": 2,
+          "S4": 3,
+          "S5": 0,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 9,
+        "structure_count": 5
+      }
+    },
+    "spotting": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 9,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 10,
+          "S9": 8
+        },
+        "count": 27,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 10,
+          "S10": 0,
+          "S2": 17,
+          "S3": 17,
+          "S4": 14,
+          "S5": 16,
+          "S6": 0,
+          "S7": 18,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 92,
+        "structure_count": 6
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 2,
+          "S3": 0,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 2,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 8,
+        "structure_count": 5
+      }
+    },
+    "supplements": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 10,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 8
+        },
+        "count": 26,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 18,
+          "S10": 0,
+          "S2": 21,
+          "S3": 19,
+          "S4": 23,
+          "S5": 24,
+          "S6": 4,
+          "S7": 15,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 124,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 3,
+          "S3": 2,
+          "S4": 3,
+          "S5": 3,
+          "S6": 0,
+          "S7": 4,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 17,
+        "structure_count": 6
+      }
+    },
+    "symptoms": {
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 11,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 7,
+          "S9": 12
+        },
+        "count": 30,
+        "structure_count": 3
+      },
+      "train": {
+        "by_structure": {
+          "S1": 24,
+          "S10": 0,
+          "S2": 22,
+          "S3": 23,
+          "S4": 25,
+          "S5": 19,
+          "S6": 4,
+          "S7": 23,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 140,
+        "structure_count": 7
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 3,
+          "S3": 4,
+          "S4": 2,
+          "S5": 3,
+          "S6": 3,
+          "S7": 3,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 20,
+        "structure_count": 7
+      }
+    }
+  },
+  "record_counts": {
+    "batch_001": 70,
+    "gold": 60,
+    "total_primary": 495,
+    "train": 400,
+    "validation": 35
+  },
+  "seed": 20261122,
+  "tags": {
+    "adversarial": {
+      "applicable_structures": [
+        "S1",
+        "S2",
+        "S8"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 0
+        },
+        "count": 2
+      },
+      "train": {
+        "by_structure": {
+          "S1": 3,
+          "S10": 0,
+          "S2": 2,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 5
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0
+      }
+    },
+    "contradictory": {
+      "applicable_structures": [
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 6
+        },
+        "count": 6
+      },
+      "train": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0
+      }
+    },
+    "duration_ambiguity": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 1
+        },
+        "count": 5
+      },
+      "train": {
+        "by_structure": {
+          "S1": 4,
+          "S10": 0,
+          "S2": 4,
+          "S3": 5,
+          "S4": 4,
+          "S5": 5,
+          "S6": 2,
+          "S7": 4,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 28
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 1,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 7
+      }
+    },
+    "emotional_language": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 1
+        },
+        "count": 4
+      },
+      "train": {
+        "by_structure": {
+          "S1": 3,
+          "S10": 0,
+          "S2": 3,
+          "S3": 4,
+          "S4": 4,
+          "S5": 4,
+          "S6": 0,
+          "S7": 3,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 21
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 2
+      }
+    },
+    "empty_off_topic": {
+      "applicable_structures": [],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 4
+      },
+      "train": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 10
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0
+      }
+    },
+    "hedging": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 3,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 3,
+          "S9": 3
+        },
+        "count": 9
+      },
+      "train": {
+        "by_structure": {
+          "S1": 8,
+          "S10": 0,
+          "S2": 8,
+          "S3": 8,
+          "S4": 8,
+          "S5": 8,
+          "S6": 6,
+          "S7": 8,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 54
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 1,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 7
+      }
+    },
+    "implicit_dates": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 2
+        },
+        "count": 6
+      },
+      "train": {
+        "by_structure": {
+          "S1": 7,
+          "S10": 0,
+          "S2": 7,
+          "S3": 7,
+          "S4": 7,
+          "S5": 7,
+          "S6": 0,
+          "S7": 7,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 42
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 6
+      }
+    },
+    "long_multi_symptom": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 2
+        },
+        "count": 6
+      },
+      "train": {
+        "by_structure": {
+          "S1": 6,
+          "S10": 0,
+          "S2": 6,
+          "S3": 6,
+          "S4": 6,
+          "S5": 6,
+          "S6": 0,
+          "S7": 6,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 36
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 6
+      }
+    },
+    "negation": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 13,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 13,
+          "S9": 9
+        },
+        "count": 35
+      },
+      "train": {
+        "by_structure": {
+          "S1": 32,
+          "S10": 0,
+          "S2": 30,
+          "S3": 27,
+          "S4": 27,
+          "S5": 27,
+          "S6": 11,
+          "S7": 31,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 185
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 2,
+          "S3": 2,
+          "S4": 2,
+          "S5": 2,
+          "S6": 1,
+          "S7": 4,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 15
+      }
+    },
+    "supplement_naming": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 10,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 8,
+          "S9": 8
+        },
+        "count": 26
+      },
+      "train": {
+        "by_structure": {
+          "S1": 18,
+          "S10": 0,
+          "S2": 21,
+          "S3": 19,
+          "S4": 23,
+          "S5": 24,
+          "S6": 4,
+          "S7": 15,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 124
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 2,
+          "S10": 0,
+          "S2": 3,
+          "S3": 2,
+          "S4": 3,
+          "S5": 3,
+          "S6": 0,
+          "S7": 4,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 17
+      }
+    },
+    "typos": {
+      "applicable_structures": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 2,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 2,
+          "S9": 2
+        },
+        "count": 6
+      },
+      "train": {
+        "by_structure": {
+          "S1": 7,
+          "S10": 0,
+          "S2": 7,
+          "S3": 7,
+          "S4": 7,
+          "S5": 7,
+          "S6": 7,
+          "S7": 7,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 49
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 1,
+          "S10": 0,
+          "S2": 1,
+          "S3": 1,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "S7": 1,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 6
+      }
+    },
+    "very_short": {
+      "applicable_structures": [
+        "S3",
+        "S6"
+      ],
+      "gold": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 0
+      },
+      "train": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 10,
+          "S4": 0,
+          "S5": 0,
+          "S6": 55,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 65
+      },
+      "validation": {
+        "by_structure": {
+          "S1": 0,
+          "S10": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 0,
+          "S5": 0,
+          "S6": 5,
+          "S7": 0,
+          "S8": 0,
+          "S9": 0
+        },
+        "count": 6
+      }
+    }
+  },
+  "validation": {
+    "errors": [],
+    "status": "passed"
+  }
+}

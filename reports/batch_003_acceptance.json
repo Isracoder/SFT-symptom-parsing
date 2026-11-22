@@ -1,0 +1,29 @@
+{
+  "batch": "batch_003",
+  "decision": "ACCEPTED_ALL",
+  "records": 40,
+  "composition": {"ordinary": 25, "adversarial": 5, "off_topic": 5, "empty": 5},
+  "accepted_by": "human (project owner)",
+  "accepted_on": "2026-11-22",
+  "text_file": "data/text/batch_003.jsonl",
+  "text_sha256": "b1293e75b61f46a220d1daff37fa51145b1ea3d32cd8ae5784f7e75fbe680a92",
+  "card_file": "data/facts/batch_003.jsonl",
+  "card_selection": "scripts/select_batch_003.py, coverage-driven; proof in reports/coverage_250.json (104 checks passed)",
+  "gates": {
+    "deterministic_audit": "40/40 accept, item_errors {}, specials 0 warnings, realism 0 hard warnings (2 soft length-variance notes on 4-record structures)",
+    "llm_semantic_audit": "40/40 ACCEPT, gate SCALE NEXT BATCH",
+    "long_cards": "all 12 cards with 4+ affirmed symptoms verbalised completely; dataset minimum of 30 met exactly",
+    "specials": "adversarial carriers S1x3/S2x2 with instruction-injection noise and empty labels; off_topic zero in-scope cues; empty whitespace-only"
+  },
+  "train_freeze": {
+    "file": "data/text/train.jsonl",
+    "records": 250,
+    "sha256": "2702e8934c51870dd0709af9d87f501b0cc8c92809504acee161c81fdf74834d",
+    "cards_file": "data/facts/train_250.jsonl",
+    "cards_sha256": "f54ef36f61bdbbcc5f90032bcf339c486a268591f19506469d73c871050fcd62",
+    "full_set_deterministic_audit": "250/250 accept, item_errors {}, realism 0 warnings, max near-duplicate Jaccard 0.154",
+    "composition": "235 ordinary (34/34/34/34/33/33/33 per S1-S7) + 15 specials",
+    "note": "data/facts/train.jsonl remains the untouched 400-card validated superset for future scaling; the active 250 is the union of accepted batches 001-003."
+  },
+  "note": "Human acceptance is the gate of record for every batch."
+}

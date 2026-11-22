@@ -1,0 +1,2501 @@
+{
+  "batch": "batch_001",
+  "files": {
+    "text": "C:\\vs code files\\ML\\parser project\\data\\text\\batch_001.jsonl",
+    "cards": "C:\\vs code files\\ML\\parser project\\data\\facts\\batch_001.jsonl",
+    "out_dir": "C:\\vs code files\\ML\\parser project\\reports"
+  },
+  "realism_warnings": {
+    "passed": true,
+    "clean": true,
+    "warning_count": 0,
+    "hard_warning_count": 0,
+    "auto_reject": false,
+    "checks": [
+      {
+        "check": "fact_density_alignment",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "schema_dump",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "list_structure_density_cap",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "opener_frame_repetition",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "sentence_subject_repetition",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      },
+      {
+        "check": "length_variance",
+        "status": "ok",
+        "warnings": 0,
+        "records": []
+      }
+    ],
+    "warnings": []
+  },
+  "semantic": {
+    "overall": {
+      "n": 70,
+      "accept": 70,
+      "reject": 0,
+      "semantic_accept_rate": 1.0,
+      "structure_compliance": 1.0,
+      "schema_valid": 70
+    },
+    "per_structure": {
+      "S1": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S2": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S3": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S4": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S5": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S6": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      },
+      "S7": {
+        "n": 10,
+        "accept": 10,
+        "reject": 0,
+        "structure_ok": 10,
+        "schema_ok": 10
+      }
+    },
+    "error_totals": {},
+    "items": [
+      {
+        "id": "train_S1_001",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_002",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_003",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_004",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_005",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_006",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_007",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_008",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_009",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S1_010",
+        "structure": "S1",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_001",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_002",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_003",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_004",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_005",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_006",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_007",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_008",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_009",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S2_010",
+        "structure": "S2",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_001",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_002",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_003",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_004",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_005",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_006",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_007",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_008",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_009",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S3_010",
+        "structure": "S3",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_001",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_002",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_003",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_004",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_005",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_006",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_007",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_008",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_009",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S4_010",
+        "structure": "S4",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_001",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_002",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_003",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_004",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_005",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_006",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_007",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_008",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_009",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S5_010",
+        "structure": "S5",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_001",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_002",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_003",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_004",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_005",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_006",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_007",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_008",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_009",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S6_010",
+        "structure": "S6",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_001",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_002",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_003",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_004",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_005",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_006",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_007",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_008",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_009",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      },
+      {
+        "id": "train_S7_010",
+        "structure": "S7",
+        "verdict": "ACCEPT",
+        "errors": []
+      }
+    ]
+  },
+  "duplicates": {
+    "exact_groups": [],
+    "near_pairs_ge_0_85": [],
+    "max_pair": {
+      "jaccard": 0.1111,
+      "a": "train_S1_001",
+      "b": "train_S2_010"
+    },
+    "max_pair_numeric_normalized": {
+      "jaccard": 0.16,
+      "a": "train_S1_003",
+      "b": "train_S1_007"
+    }
+  },
+  "held_out_structure_leaks": {
+    "form_marker_records": [],
+    "off_structure_records": [],
+    "count": 0
+  },
+  "fact_density": {
+    "records": [
+      {
+        "id": "train_S1_001",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S1_002",
+        "structure": "S1",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 20
+      },
+      {
+        "id": "train_S1_003",
+        "structure": "S1",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 19
+      },
+      {
+        "id": "train_S1_004",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S1_005",
+        "structure": "S1",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 10
+      },
+      {
+        "id": "train_S1_006",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S1_007",
+        "structure": "S1",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S1_008",
+        "structure": "S1",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S1_009",
+        "structure": "S1",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 9
+      },
+      {
+        "id": "train_S1_010",
+        "structure": "S1",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S2_001",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S2_002",
+        "structure": "S2",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 23
+      },
+      {
+        "id": "train_S2_003",
+        "structure": "S2",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 22
+      },
+      {
+        "id": "train_S2_004",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S2_005",
+        "structure": "S2",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 24
+      },
+      {
+        "id": "train_S2_006",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 11
+      },
+      {
+        "id": "train_S2_007",
+        "structure": "S2",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 24
+      },
+      {
+        "id": "train_S2_008",
+        "structure": "S2",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 17
+      },
+      {
+        "id": "train_S2_009",
+        "structure": "S2",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S2_010",
+        "structure": "S2",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 9
+      },
+      {
+        "id": "train_S3_001",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 5
+      },
+      {
+        "id": "train_S3_002",
+        "structure": "S3",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S3_003",
+        "structure": "S3",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 18
+      },
+      {
+        "id": "train_S3_004",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S3_005",
+        "structure": "S3",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S3_006",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S3_007",
+        "structure": "S3",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 14
+      },
+      {
+        "id": "train_S3_008",
+        "structure": "S3",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S3_009",
+        "structure": "S3",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S3_010",
+        "structure": "S3",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 4
+      },
+      {
+        "id": "train_S4_001",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S4_002",
+        "structure": "S4",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 25
+      },
+      {
+        "id": "train_S4_003",
+        "structure": "S4",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 31
+      },
+      {
+        "id": "train_S4_004",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 21
+      },
+      {
+        "id": "train_S4_005",
+        "structure": "S4",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 26
+      },
+      {
+        "id": "train_S4_006",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S4_007",
+        "structure": "S4",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 23
+      },
+      {
+        "id": "train_S4_008",
+        "structure": "S4",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 19
+      },
+      {
+        "id": "train_S4_009",
+        "structure": "S4",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S4_010",
+        "structure": "S4",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S5_001",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 8
+      },
+      {
+        "id": "train_S5_002",
+        "structure": "S5",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 27
+      },
+      {
+        "id": "train_S5_003",
+        "structure": "S5",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 20
+      },
+      {
+        "id": "train_S5_004",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 12
+      },
+      {
+        "id": "train_S5_005",
+        "structure": "S5",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 27
+      },
+      {
+        "id": "train_S5_006",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 6
+      },
+      {
+        "id": "train_S5_007",
+        "structure": "S5",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 21
+      },
+      {
+        "id": "train_S5_008",
+        "structure": "S5",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 10
+      },
+      {
+        "id": "train_S5_009",
+        "structure": "S5",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 12
+      },
+      {
+        "id": "train_S5_010",
+        "structure": "S5",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 7
+      },
+      {
+        "id": "train_S6_001",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 4
+      },
+      {
+        "id": "train_S6_002",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_003",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_004",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_005",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_006",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_007",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 4
+      },
+      {
+        "id": "train_S6_008",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_009",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S6_010",
+        "structure": "S6",
+        "fact_count": 1,
+        "band": "1",
+        "words": 3
+      },
+      {
+        "id": "train_S7_001",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 11
+      },
+      {
+        "id": "train_S7_002",
+        "structure": "S7",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 25
+      },
+      {
+        "id": "train_S7_003",
+        "structure": "S7",
+        "fact_count": 7,
+        "band": "7-9",
+        "words": 20
+      },
+      {
+        "id": "train_S7_004",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 12
+      },
+      {
+        "id": "train_S7_005",
+        "structure": "S7",
+        "fact_count": 5,
+        "band": "4-6",
+        "words": 29
+      },
+      {
+        "id": "train_S7_006",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 18
+      },
+      {
+        "id": "train_S7_007",
+        "structure": "S7",
+        "fact_count": 6,
+        "band": "4-6",
+        "words": 16
+      },
+      {
+        "id": "train_S7_008",
+        "structure": "S7",
+        "fact_count": 3,
+        "band": "2-3",
+        "words": 13
+      },
+      {
+        "id": "train_S7_009",
+        "structure": "S7",
+        "fact_count": 4,
+        "band": "4-6",
+        "words": 15
+      },
+      {
+        "id": "train_S7_010",
+        "structure": "S7",
+        "fact_count": 2,
+        "band": "2-3",
+        "words": 12
+      }
+    ],
+    "overall": {
+      "counts": {
+        "1": 10,
+        "2-3": 30,
+        "4-6": 24,
+        "7-9": 6,
+        "other": 0
+      },
+      "word_stats": {
+        "1": {
+          "n": 10,
+          "min": 3,
+          "median": 3.0,
+          "mean": 3.2,
+          "max": 4,
+          "stddev": 0.4,
+          "count": 10
+        },
+        "2-3": {
+          "n": 30,
+          "min": 4,
+          "median": 10.0,
+          "mean": 10.6,
+          "max": 21,
+          "stddev": 4.04,
+          "count": 30
+        },
+        "4-6": {
+          "n": 24,
+          "min": 9,
+          "median": 18.0,
+          "mean": 18.83,
+          "max": 29,
+          "stddev": 6.14,
+          "count": 24
+        },
+        "7-9": {
+          "n": 6,
+          "min": 18,
+          "median": 20.0,
+          "mean": 21.67,
+          "max": 31,
+          "stddev": 4.35,
+          "count": 6
+        },
+        "other": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "mean": null,
+          "max": null,
+          "stddev": null,
+          "count": 0
+        }
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 6,
+            "median": 9,
+            "mean": 8.8,
+            "max": 13,
+            "stddev": 2.4,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 9,
+            "median": 13.0,
+            "mean": 13.75,
+            "max": 20,
+            "stddev": 4.49,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 19,
+            "median": 19,
+            "mean": 19,
+            "max": 19,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S2": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 8,
+            "median": 11,
+            "mean": 11.6,
+            "max": 17,
+            "stddev": 3.2,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 14,
+            "median": 23.5,
+            "mean": 21.25,
+            "max": 24,
+            "stddev": 4.21,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 22,
+            "median": 22,
+            "mean": 22,
+            "max": 22,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S3": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 4,
+            "median": 7,
+            "mean": 6.8,
+            "max": 10,
+            "stddev": 2.14,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 12,
+            "median": 13.0,
+            "mean": 13.5,
+            "max": 16,
+            "stddev": 1.66,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 18,
+            "median": 18,
+            "mean": 18,
+            "max": 18,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S4": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 10,
+            "median": 13,
+            "mean": 14.6,
+            "max": 21,
+            "stddev": 4.59,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 12,
+            "median": 24.0,
+            "mean": 21.5,
+            "max": 26,
+            "stddev": 5.59,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 31,
+            "median": 31,
+            "mean": 31,
+            "max": 31,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S5": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 6,
+            "median": 8,
+            "mean": 8.6,
+            "max": 12,
+            "stddev": 2.15,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 12,
+            "median": 24.0,
+            "mean": 21.75,
+            "max": 27,
+            "stddev": 6.14,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 20,
+            "median": 20,
+            "mean": 20,
+            "max": 20,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S6": {
+        "counts": {
+          "1": 10,
+          "2-3": 0,
+          "4-6": 0,
+          "7-9": 0,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 10,
+            "min": 3,
+            "median": 3.0,
+            "mean": 3.2,
+            "max": 4,
+            "stddev": 0.4,
+            "count": 10
+          },
+          "2-3": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "4-6": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "7-9": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      },
+      "S7": {
+        "counts": {
+          "1": 0,
+          "2-3": 5,
+          "4-6": 4,
+          "7-9": 1,
+          "other": 0
+        },
+        "word_stats": {
+          "1": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          },
+          "2-3": {
+            "n": 5,
+            "min": 11,
+            "median": 12,
+            "mean": 13.2,
+            "max": 18,
+            "stddev": 2.48,
+            "count": 5
+          },
+          "4-6": {
+            "n": 4,
+            "min": 15,
+            "median": 20.5,
+            "mean": 21.25,
+            "max": 29,
+            "stddev": 5.93,
+            "count": 4
+          },
+          "7-9": {
+            "n": 1,
+            "min": 20,
+            "median": 20,
+            "mean": 20,
+            "max": 20,
+            "stddev": 0.0,
+            "count": 1
+          },
+          "other": {
+            "n": 0,
+            "min": null,
+            "median": null,
+            "mean": null,
+            "max": null,
+            "stddev": null,
+            "count": 0
+          }
+        }
+      }
+    }
+  },
+  "schema_dump": {
+    "skipped_structures": [
+      "S1",
+      "S3"
+    ],
+    "skipped_count": 20,
+    "skipped_records": [
+      "train_S1_001",
+      "train_S1_002",
+      "train_S1_003",
+      "train_S1_004",
+      "train_S1_005",
+      "train_S1_006",
+      "train_S1_007",
+      "train_S1_008",
+      "train_S1_009",
+      "train_S1_010",
+      "train_S3_001",
+      "train_S3_002",
+      "train_S3_003",
+      "train_S3_004",
+      "train_S3_005",
+      "train_S3_006",
+      "train_S3_007",
+      "train_S3_008",
+      "train_S3_009",
+      "train_S3_010"
+    ],
+    "records": [],
+    "count_by_structure": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0,
+      "S7": 0
+    },
+    "overall_count": 0
+  },
+  "list_structure_density_cap": {
+    "structures": [
+      "S1",
+      "S3"
+    ],
+    "max_facts": 7,
+    "records": [],
+    "overall_count": 0
+  },
+  "openers": {
+    "tokens": 4,
+    "overall_top_frames": [
+      {
+        "frame": "am i doing okay",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "anyway hair is normal",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "barely 3 5 hours",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "big blood clots i",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "clots light i think",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "cramps or just pressure",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "cycle started today flow",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "did my period start",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "energy on a scale",
+        "count": 1,
+        "fraction": 0.0143
+      },
+      {
+        "frame": "evening cravings all day",
+        "count": 1,
+        "fraction": 0.0143
+      }
+    ],
+    "by_structure": {
+      "S1": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "evening mood neutral no",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "fine large blood clots",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "hair loss no pelvic",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "hmm period started 18",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "lunchtime no symptoms today",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "morning mood good mild",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "no symptoms at all",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "oily skin no fatigue",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "well new hair growth",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "wow new hair growth",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S2": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "i took my iron",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "i ve got blood",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "late evening took magnesium",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "long day at work",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "morning again and my",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "ok weird day skin",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "quiet day skin is",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "this morning was a",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "what a day took",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "work was long severe",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S3": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "clots light i think",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "cycle started today flow",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "evening cravings all day",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "fatigue severe ugh back",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "mood swings severe nausea",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "morning bloating moderate mood",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "night no symptoms sleep",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "skin acne sleep 7h",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "symptoms none spotting yes",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "tired mild ugh nausea",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S4": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "anyway hair is normal",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "gross acne again and",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "hmm ok so spotting",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "late morning only 6",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "man sleep was fair",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "this evening clots are",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "well anyway took a",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "well no spotting at",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "well skin is oyly",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "yeah got like 7",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S5": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "big blood clots i",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "i have no symptoms",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "i take b12 skin",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "my mood is good",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "normal skin i have",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "period started 2 days",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "right now no symptoms",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "sleep is bad energy",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "today spotting yes no",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "tonight mild nausea mood",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S6": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "barely 3 5 hours",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "light flow today",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "maybe low tbh",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "mild insomnia again",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "no mood swings",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "nothing at all today",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "pretty oily hair",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "skin lookin oily",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "slept like crap",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "zero enrgy tday",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      },
+      "S7": {
+        "n": 10,
+        "distinct_frames": 10,
+        "top_frames": [
+          {
+            "frame": "am i doing okay",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "cramps or just pressure",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "did my period start",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "energy on a scale",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "how bad is the",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "how good is my",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "is light flow normal",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "pelvic pain or something",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "what are these clots",
+            "count": 1,
+            "fraction": 0.1
+          },
+          {
+            "frame": "why is the flow",
+            "count": 1,
+            "fraction": 0.1
+          }
+        ],
+        "frames_over_threshold": []
+      }
+    },
+    "most_common_frame_by_structure": {
+      "S1": "evening mood neutral no",
+      "S2": "i took my iron",
+      "S3": "clots light i think",
+      "S4": "anyway hair is normal",
+      "S5": "big blood clots i",
+      "S6": "barely 3 5 hours",
+      "S7": "am i doing okay"
+    }
+  },
+  "sentence_subjects": {
+    "classes": [
+      "my period",
+      "i",
+      "today",
+      "no",
+      "bare_fragment",
+      "other"
+    ],
+    "overall": {
+      "my period": {
+        "count": 0,
+        "fraction": 0.0
+      },
+      "i": {
+        "count": 4,
+        "fraction": 0.0571
+      },
+      "today": {
+        "count": 1,
+        "fraction": 0.0143
+      },
+      "no": {
+        "count": 2,
+        "fraction": 0.0286
+      },
+      "bare_fragment": {
+        "count": 33,
+        "fraction": 0.4714
+      },
+      "other": {
+        "count": 30,
+        "fraction": 0.4286
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 1,
+          "fraction": 0.1
+        },
+        "bare_fragment": {
+          "count": 9,
+          "fraction": 0.9
+        },
+        "other": {
+          "count": 0,
+          "fraction": 0.0
+        }
+      },
+      "S2": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 2,
+          "fraction": 0.2
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 8,
+          "fraction": 0.8
+        }
+      },
+      "S3": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 9,
+          "fraction": 0.9
+        },
+        "other": {
+          "count": 1,
+          "fraction": 0.1
+        }
+      },
+      "S4": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 7,
+          "fraction": 0.7
+        },
+        "other": {
+          "count": 3,
+          "fraction": 0.3
+        }
+      },
+      "S5": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 2,
+          "fraction": 0.2
+        },
+        "today": {
+          "count": 1,
+          "fraction": 0.1
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 7,
+          "fraction": 0.7
+        }
+      },
+      "S6": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 1,
+          "fraction": 0.1
+        },
+        "bare_fragment": {
+          "count": 8,
+          "fraction": 0.8
+        },
+        "other": {
+          "count": 1,
+          "fraction": 0.1
+        }
+      },
+      "S7": {
+        "my period": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "i": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "today": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "no": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "bare_fragment": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "other": {
+          "count": 10,
+          "fraction": 1.0
+        }
+      }
+    }
+  },
+  "length_variance": {
+    "overall": {
+      "n": 70,
+      "min": 3,
+      "median": 12.0,
+      "mean": 13.31,
+      "max": 31,
+      "stddev": 7.47
+    },
+    "by_structure": {
+      "S1": {
+        "n": 10,
+        "min": 6,
+        "median": 9.5,
+        "mean": 11.8,
+        "max": 20,
+        "stddev": 4.71,
+        "warning": false
+      },
+      "S2": {
+        "n": 10,
+        "min": 8,
+        "median": 15.5,
+        "mean": 16.5,
+        "max": 24,
+        "stddev": 6.02,
+        "warning": false
+      },
+      "S3": {
+        "n": 10,
+        "min": 4,
+        "median": 11.0,
+        "mean": 10.6,
+        "max": 18,
+        "stddev": 4.41,
+        "warning": false
+      },
+      "S4": {
+        "n": 10,
+        "min": 10,
+        "median": 20.0,
+        "mean": 19,
+        "max": 31,
+        "stddev": 7.04,
+        "warning": false
+      },
+      "S5": {
+        "n": 10,
+        "min": 6,
+        "median": 12.0,
+        "mean": 15,
+        "max": 27,
+        "stddev": 7.66,
+        "warning": false
+      },
+      "S6": {
+        "n": 10,
+        "min": 3,
+        "median": 3.0,
+        "mean": 3.2,
+        "max": 4,
+        "stddev": 0.4,
+        "warning": false
+      },
+      "S7": {
+        "n": 10,
+        "min": 11,
+        "median": 15.5,
+        "mean": 17.1,
+        "max": 29,
+        "stddev": 5.7,
+        "warning": false
+      }
+    }
+  },
+  "legacy_length_stats": {
+    "overall": {
+      "n": 70,
+      "words": {
+        "min": 3,
+        "median": 12.0,
+        "mean": 13.31,
+        "max": 31
+      },
+      "chars": {
+        "min": 13,
+        "median": 66.5,
+        "mean": 74.96,
+        "max": 170
+      }
+    },
+    "by_structure": {
+      "S1": {
+        "n": 10,
+        "words": {
+          "min": 6,
+          "median": 9.5,
+          "mean": 11.8,
+          "max": 20
+        },
+        "chars": {
+          "min": 35,
+          "median": 63.5,
+          "mean": 73.6,
+          "max": 141
+        }
+      },
+      "S2": {
+        "n": 10,
+        "words": {
+          "min": 8,
+          "median": 15.5,
+          "mean": 16.5,
+          "max": 24
+        },
+        "chars": {
+          "min": 46,
+          "median": 81.0,
+          "mean": 91.1,
+          "max": 142
+        }
+      },
+      "S3": {
+        "n": 10,
+        "words": {
+          "min": 4,
+          "median": 11.0,
+          "mean": 10.6,
+          "max": 18
+        },
+        "chars": {
+          "min": 29,
+          "median": 68.5,
+          "mean": 67.1,
+          "max": 101
+        }
+      },
+      "S4": {
+        "n": 10,
+        "words": {
+          "min": 10,
+          "median": 20.0,
+          "mean": 19,
+          "max": 31
+        },
+        "chars": {
+          "min": 53,
+          "median": 107.5,
+          "mean": 100.8,
+          "max": 148
+        }
+      },
+      "S5": {
+        "n": 10,
+        "words": {
+          "min": 6,
+          "median": 12.0,
+          "mean": 15,
+          "max": 27
+        },
+        "chars": {
+          "min": 34,
+          "median": 62.0,
+          "mean": 80.9,
+          "max": 170
+        }
+      },
+      "S6": {
+        "n": 10,
+        "words": {
+          "min": 3,
+          "median": 3.0,
+          "mean": 3.2,
+          "max": 4
+        },
+        "chars": {
+          "min": 13,
+          "median": 16.0,
+          "mean": 16,
+          "max": 20
+        }
+      },
+      "S7": {
+        "n": 10,
+        "words": {
+          "min": 11,
+          "median": 15.5,
+          "mean": 17.1,
+          "max": 29
+        },
+        "chars": {
+          "min": 53,
+          "median": 84.0,
+          "mean": 95.2,
+          "max": 160
+        }
+      }
+    },
+    "repeated_openers_3tok": [],
+    "repeated_frames_5tok": [
+      {
+        "count": 4,
+        "frame": "no spotting"
+      },
+      {
+        "count": 3,
+        "frame": "skin is normal"
+      },
+      {
+        "count": 3,
+        "frame": "light flow"
+      },
+      {
+        "count": 3,
+        "frame": "no symptoms at all"
+      },
+      {
+        "count": 2,
+        "frame": "no painkiller"
+      },
+      {
+        "count": 2,
+        "frame": "flow is heavy"
+      },
+      {
+        "count": 2,
+        "frame": "mood is good"
+      },
+      {
+        "count": 2,
+        "frame": "sleep is poor"
+      }
+    ]
+  },
+  "coverage": {
+    "run": true,
+    "errors": [],
+    "summary": {
+      "counts": {
+        "train": 400,
+        "validation": 35,
+        "gold": 60,
+        "batch": 70
+      },
+      "unique_ids": 495,
+      "train_val_fact_overlap": 0,
+      "slice_counts": {
+        "negation": {
+          "train": 185,
+          "validation": 15,
+          "gold": 35
+        },
+        "global_negation": {
+          "train": 47,
+          "validation": 0,
+          "gold": 6
+        },
+        "four_plus_symptoms": {
+          "train": 36,
+          "validation": 6,
+          "gold": 6
+        }
+      },
+      "coverage_report_matches": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "batch": "batch_002",
+  "decision": "ACCEPTED_ALL",
+  "records": 140,
+  "accepted_by": "human (project owner)",
+  "accepted_on": "2026-11-22",
+  "text_file": "data/text/batch_002.jsonl",
+  "text_sha256": "095fbe81d4965e4e8f683e2071f0d36085755029de6a30822e98901d69235fca",
+  "card_file": "data/facts/batch_002.jsonl",
+  "generation": "3 parallel generators (S1-S3, S4-S5, S6-S7) on opencode-go/qwen4-max, per-structure part files assembled into batch_002.jsonl",
+  "gates": {
+    "deterministic_audit": "140/140 accept, item_errors {}, structure_compliance 1.0, schema_valid 140, realism warnings 0",
+    "llm_semantic_audit": "140/140 ACCEPT, gate SCALE NEXT BATCH (opencode-go/deepseek-v4-pro, independent of generator)",
+    "realism": "137 ok / 3 warn before fixes; 0 warnings after fixes",
+    "max_within_batch_near_duplicate_jaccard": 0.154,
+    "cross_batch_exact_duplicates_vs_001": 0,
+    "max_cross_batch_jaccard_vs_001": 0.152,
+    "label_fidelity": "all non-text fields byte-aligned to cards, verified per record"
+  },
+  "fixes_before_acceptance": [
+    "train_S2_023: 'neighbors were loud all night' implied disturbed sleep absent from card -> neutral weather opener",
+    "train_S1_011/012/019/020/028: reaction fillers implying mood/energy on cards without those facts -> neutral fillers",
+    "train_S2_030: 'oh come on.' frustration opener on mood-less card -> 'okay.'",
+    "train_S1_023: 'nah' dismissive opener on mood-less card -> 'well,'",
+    "train_S7_014: 'hair normal for once' implied habitual abnormality -> removed 'for once'",
+    "train_S5_027: typo 'paynkiler' made painkiller denial unrecoverable -> 'paynkiller'",
+    "train_S7_015/025: 'for a while now' tripped subordinate-while filter -> 'on and off lately'"
+  ],
+  "accepted_limitations": [
+    "Mild templating: 'X is there' null-severity marker across 4 S4 records",
+    "High-frequency closed-vocabulary phrases ('no spotting' x19, 'took a painkiller' x15) - inherent to the domain, not treated as a defect"
+  ],
+  "cumulative_train_records_accepted": 210,
+  "note": "Human acceptance is the gate of record. File normalised to LF + compact JSON before hashing."
+}

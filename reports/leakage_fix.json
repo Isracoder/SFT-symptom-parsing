@@ -1,0 +1,453 @@
+{
+  "task": "leakage_fix",
+  "date": "2026-11-22",
+  "files_changed": [
+    "data/facts/validation.jsonl",
+    "data/text/validation.jsonl",
+    "data/facts/gold_cards.jsonl",
+    "reports/leakage_fix.json"
+  ],
+  "validation_replacements": [
+    {
+      "validation_id": "validation_S1_001",
+      "donor_id": "train_S1_041",
+      "structure": "S1",
+      "new_cycle_day": null,
+      "new_flow": null,
+      "donor_cycle_day": null,
+      "cycle_day_adjusted_from_donor": false,
+      "density_band": "2-3",
+      "fact_count": 3,
+      "tags_preserved": [
+        "supplement_naming"
+      ],
+      "tags_added": [],
+      "tags_lost": [],
+      "new_facts": {
+        "supplements": [
+          "folate",
+          "calcium"
+        ],
+        "mood": "neutral",
+        "hair": "oily"
+      }
+    },
+    {
+      "validation_id": "validation_S1_003",
+      "donor_id": "train_S1_051",
+      "structure": "S1",
+      "new_cycle_day": 12,
+      "new_flow": "heavy",
+      "donor_cycle_day": 11,
+      "cycle_day_adjusted_from_donor": true,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "negation",
+        "typos"
+      ],
+      "tags_added": [],
+      "tags_lost": [],
+      "new_facts": {
+        "cycle_day": 12,
+        "flow": "heavy",
+        "denied": [
+          "insomnia"
+        ],
+        "sleep_quality": "good",
+        "energy_level": "high",
+        "mood": "good"
+      }
+    },
+    {
+      "validation_id": "validation_S2_003",
+      "donor_id": "train_S2_051",
+      "structure": "S2",
+      "new_cycle_day": 12,
+      "new_flow": "extremely_heavy",
+      "donor_cycle_day": 12,
+      "cycle_day_adjusted_from_donor": false,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "typos"
+      ],
+      "tags_added": [
+        "negation"
+      ],
+      "tags_lost": [],
+      "new_facts": {
+        "cycle_day": 12,
+        "flow": "extremely_heavy",
+        "painkiller": false,
+        "energy_level": "medium",
+        "mood": "good",
+        "hair": "dry"
+      }
+    },
+    {
+      "validation_id": "validation_S3_003",
+      "donor_id": "train_S3_051",
+      "structure": "S3",
+      "new_cycle_day": 14,
+      "new_flow": "light",
+      "donor_cycle_day": 13,
+      "cycle_day_adjusted_from_donor": true,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "typos"
+      ],
+      "tags_added": [],
+      "tags_lost": [
+        "negation"
+      ],
+      "new_facts": {
+        "cycle_day": 14,
+        "flow": "light",
+        "painkiller": true,
+        "mood": "good",
+        "hair": "growth",
+        "skin": "acne"
+      }
+    },
+    {
+      "validation_id": "validation_S4_003",
+      "donor_id": "train_S4_051",
+      "structure": "S4",
+      "new_cycle_day": 14,
+      "new_flow": "medium",
+      "donor_cycle_day": 14,
+      "cycle_day_adjusted_from_donor": false,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "negation",
+        "typos"
+      ],
+      "tags_added": [],
+      "tags_lost": [],
+      "new_facts": {
+        "cycle_day": 14,
+        "flow": "medium",
+        "denied": [
+          "breast_tenderness"
+        ],
+        "sleep_hours": 8.5,
+        "mood": "good",
+        "hair": "loss"
+      }
+    },
+    {
+      "validation_id": "validation_S5_003",
+      "donor_id": "train_S5_051",
+      "structure": "S5",
+      "new_cycle_day": 15,
+      "new_flow": "heavy",
+      "donor_cycle_day": 15,
+      "cycle_day_adjusted_from_donor": false,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "negation",
+        "typos"
+      ],
+      "tags_added": [
+        "supplement_naming"
+      ],
+      "tags_lost": [],
+      "new_facts": {
+        "cycle_day": 15,
+        "flow": "heavy",
+        "denied": [
+          "headache"
+        ],
+        "supplements": [
+          "folate"
+        ],
+        "sleep_hours": 9.0,
+        "hair": "normal"
+      }
+    },
+    {
+      "validation_id": "validation_S7_003",
+      "donor_id": "train_S7_051",
+      "structure": "S7",
+      "new_cycle_day": 17,
+      "new_flow": "light",
+      "donor_cycle_day": 17,
+      "cycle_day_adjusted_from_donor": false,
+      "density_band": "4-6",
+      "fact_count": 6,
+      "tags_preserved": [
+        "implicit_dates",
+        "typos"
+      ],
+      "tags_added": [],
+      "tags_lost": [
+        "negation",
+        "supplement_naming"
+      ],
+      "new_facts": {
+        "cycle_day": 17,
+        "flow": "light",
+        "symptoms": [
+          {
+            "name": "bloating",
+            "severity": null
+          },
+          {
+            "name": "insomnia",
+            "severity": "moderate"
+          },
+          {
+            "name": "cravings",
+            "severity": null
+          }
+        ],
+        "sleep_hours": 4.0,
+        "mood": "good",
+        "hair": "dry"
+      }
+    }
+  ],
+  "gold_adjustments": [
+    {
+      "gold_id": "gold_S9_007",
+      "old_cycle_day": 7,
+      "new_cycle_day": 6,
+      "flow": "heavy",
+      "structure": "S9",
+      "constraint_strings_updated": false,
+      "note": "cycle_day 7->6 avoids train (7,heavy). Constraints use generic 'first bleeding day = day 1' wording with no hardcoded N, so they remain self-consistent (handwritten text will read 'started 5 days ago'). No gold text written."
+    },
+    {
+      "gold_id": "gold_S10_007",
+      "old_cycle_day": 8,
+      "new_cycle_day": 4,
+      "flow": "extremely_heavy",
+      "structure": "S10",
+      "constraint_strings_updated": false,
+      "note": "cycle_day 8->4 avoids train (8,extremely_heavy). Generic relative-date constraint unchanged and self-consistent (handwritten text will read 'started 3 days ago'). No gold text written."
+    }
+  ],
+  "verification": {
+    "a": {
+      "definition": "no validation/gold ordinary card that asserts cycle_day shares its (cycle_day,flow) pair with any of the 250 train ordinary cards; cards without cycle_day cannot form a relative-date mirror",
+      "collisions": [],
+      "passed": true
+    },
+    "b": {
+      "definition": "no exact full-fact duplicate between validation/gold ordinary cards and train ordinary cards (specials ignored)",
+      "duplicates": [],
+      "passed": true
+    },
+    "c": {
+      "n": 35,
+      "per_structure": {
+        "S1": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        },
+        "S2": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        },
+        "S3": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        },
+        "S4": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        },
+        "S5": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        },
+        "S6": {
+          "n": 5,
+          "bands": {
+            "1": 5
+          }
+        },
+        "S7": {
+          "n": 5,
+          "bands": {
+            "2-3": 2,
+            "4-6": 2,
+            "7-9": 1
+          }
+        }
+      },
+      "tag_slices_before": {
+        "supplement_naming": 17,
+        "long_multi_symptom": 6,
+        "implicit_dates": 6,
+        "negation": 15,
+        "typos": 6,
+        "hedging": 7,
+        "duration_ambiguity": 7,
+        "very_short": 6,
+        "emotional_language": 2
+      },
+      "tag_slices_after": {
+        "supplement_naming": 17,
+        "long_multi_symptom": 6,
+        "implicit_dates": 6,
+        "negation": 14,
+        "typos": 6,
+        "hedging": 7,
+        "duration_ambiguity": 7,
+        "very_short": 6,
+        "emotional_language": 2
+      },
+      "implicit_dates_after": 6,
+      "internal_fact_dups": 0,
+      "shape_ok": true,
+      "density_2_2_1_ok": true,
+      "passed": true
+    },
+    "d": {
+      "per_new_text": [
+        {
+          "id": "validation_S1_001",
+          "max_jaccard_vs_train": 0.0,
+          "closest_train": null,
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S1_003",
+          "max_jaccard_vs_train": 0.0417,
+          "closest_train": "train_S1_027",
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S2_003",
+          "max_jaccard_vs_train": 0.0286,
+          "closest_train": "train_S4_019",
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S3_003",
+          "max_jaccard_vs_train": 0.0385,
+          "closest_train": "train_S3_003",
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S4_003",
+          "max_jaccard_vs_train": 0.0541,
+          "closest_train": "train_S4_019",
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S5_003",
+          "max_jaccard_vs_train": 0.08,
+          "closest_train": "train_S5_027",
+          "near_paraphrase": false
+        },
+        {
+          "id": "validation_S7_003",
+          "max_jaccard_vs_train": 0.0286,
+          "closest_train": "train_S3_003",
+          "near_paraphrase": false
+        }
+      ],
+      "max_overall": 0.08,
+      "validation_exact_dup_groups": [],
+      "validation_near_pairs_ge_0.85": [],
+      "passed": true
+    },
+    "e": {
+      "facts_validation_changed": [
+        "validation_S1_001",
+        "validation_S1_003",
+        "validation_S2_003",
+        "validation_S3_003",
+        "validation_S4_003",
+        "validation_S5_003",
+        "validation_S7_003"
+      ],
+      "gold_changed": [
+        "gold_S9_007",
+        "gold_S10_007"
+      ],
+      "text_validation_changed": [
+        "validation_S1_001",
+        "validation_S1_003",
+        "validation_S2_003",
+        "validation_S3_003",
+        "validation_S4_003",
+        "validation_S5_003",
+        "validation_S7_003"
+      ],
+      "expected_validation": [
+        "validation_S1_001",
+        "validation_S1_003",
+        "validation_S2_003",
+        "validation_S3_003",
+        "validation_S4_003",
+        "validation_S5_003",
+        "validation_S7_003"
+      ],
+      "expected_gold": [
+        "gold_S9_007",
+        "gold_S10_007"
+      ],
+      "passed": true
+    }
+  },
+  "donor_pool_constraints_not_satisfied": [
+    "validation_S1_003: every unused S1 implicit_dates 4-6 donor (train_S1_031, train_S1_051) carries (11,heavy), already used by train_S5_003. No collision-free verbatim donor exists; donor train_S1_051 taken verbatim except cycle_day 11->12 (same de-mirror operation sanctioned for gold).",
+    "validation_S3_003: every unused S3 implicit_dates 4-6 donor (train_S3_031, train_S3_051) carries (13,light), already used by train_S7_003. No collision-free verbatim donor exists; donor train_S3_051 taken verbatim except cycle_day 13->14. Additionally no unused S3 implicit_dates donor carries the negation tag, so negation could not be preserved on this record.",
+    "validation_S7_003: no unused S7 implicit_dates 4-6 donor carries negation or supplement_naming; donor train_S7_051 preserves implicit_dates+typos only, so negation and supplement_naming tags could not be preserved.",
+    "validation_S2_003: only tag-preserving donor train_S2_051 adds a negation tag (superset profile).",
+    "validation_S5_003: only tag-preserving donor train_S5_051 adds a supplement_naming tag (superset profile).",
+    "Net validation tag-slice change: negation 15->14 (no collapse); all other slices unchanged; implicit_dates stays 6."
+  ],
+  "audit": {
+    "command": "python scripts/audit_batch_001.py --text data/text/validation.jsonl --cards data/facts/validation.jsonl --out-dir <temp> --no-coverage",
+    "ran_successfully_first_attempt": true,
+    "accept": 35,
+    "reject": 0,
+    "structure_compliance": 1.0,
+    "schema_valid": 35,
+    "realism_warnings": 0,
+    "item_errors": {},
+    "note": "validation contains no specials; audit script ran cleanly (no mid-edit error)."
+  },
+  "notes": [
+    "Training data untouched: data/facts/batch_001/002/003.jsonl, data/text/batch_001/002/003.jsonl and data/facts/train.jsonl were only read, never written (mtimes predate this fix).",
+    "The 250 train reference = batch_001(70)+batch_002(140)+batch_003(40). Donors drawn from the 150 unused cards of the 400-card superset data/facts/train.jsonl.",
+    "DEVIATION (forced by donor pool): validation_S1_003 and validation_S3_003 take the donor verbatim EXCEPT cycle_day, nudged to a free value (11->12 and 13->14). Every unused S1/S3 implicit_dates 4-6 donor reuses a train (cycle_day,flow) pair, so a verbatim swap cannot satisfy the no-pair-match gate; the minimal cycle_day de-mirror (the same operation sanctioned for gold) was applied to close the leak. All other facts/tags/constraints/structure/type are the donor's.",
+    "All other 5 replacements are verbatim donor swaps (facts/tags/constraints/structure/type), with only id and split changed.",
+    "Tag-profile deviations are superset additions (S2_003 +negation, S5_003 +supplement_naming) or unavoidable losses (S3_003 -negation, S7_003 -negation -supplement_naming); no donor in the pool preserves those exact profiles. Net negation slice 15->14, no collapse; implicit_dates stays 6.",
+    "Gate (a) is evaluated on cycle_day-asserted (implicit_dates) pairs, the leakage-relevant case; cards that do not assert cycle_day cannot form a relative-date mirror.",
+    "No gold text was written or suggested (gold is owner-handwritten)."
+  ]
+}

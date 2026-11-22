@@ -1,0 +1,27 @@
+{
+  "batch": "batch_001",
+  "decision": "ACCEPTED_ALL",
+  "records": 70,
+  "accepted_by": "human (project owner)",
+  "accepted_on": "2026-11-22",
+  "text_file": "data/text/batch_001.jsonl",
+  "text_sha256": "7bc6a715e9bcf694645e1da61e4e6be187f137543d1d09882277a5c9b05a8898",
+  "card_file": "data/facts/batch_001.jsonl",
+  "gates": {
+    "llm_semantic_audit": "70 ACCEPT / 0 REJECT (reports/batch_001_item_audit.jsonl)",
+    "deterministic_audit": "70/70 accept, item_errors {}, structure_compliance 1.0, schema_valid 70",
+    "realism_warnings": 0,
+    "max_near_duplicate_jaccard": 0.111,
+    "max_near_duplicate_jaccard_numeric_normalised": 0.16,
+    "coverage_errors": []
+  },
+  "fixes_before_acceptance": [
+    "train_S4_001: removed phantom flow:none implication ('just spotting')",
+    "train_S2_004: fact order, cravings moved to leading symptoms",
+    "train_S4_004: fact order, constipation moved to leading symptoms",
+    "train_S2_002: removed severity/quantity cue on null-severity insomnia",
+    "train_S5_002: added missing cravings (caught by deterministic audit, missed by LLM auditor)"
+  ],
+  "fact_card_state": "S1/S3 capped at 7 non-null top-level facts (6 train cards trimmed); generator validation status passed",
+  "note": "Human acceptance is the gate of record. Automated and LLM verdicts are advisory. No S8/S9/S10 text has been generated; gold remains to be handwritten by the owner."
+}
