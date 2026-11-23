@@ -1,0 +1,82 @@
+{
+  "base_free": {
+    "parse_rate": 0.35,
+    "macro_field_f1": 0.5571926459335661,
+    "per_field_f1": {
+      "cycle_day": 0.8000000000000002,
+      "flow": 0.6666666666666666,
+      "spotting": 0.85,
+      "symptoms": 0.06779661016949153,
+      "denied": 0.10714285714285714,
+      "no_symptoms_asserted": 0.7166666666666667,
+      "painkiller": 0.6833333333333333,
+      "supplements": 0.4090909090909091,
+      "sleep_hours": 0.4666666666666667,
+      "sleep_quality": 0.55,
+      "energy_level": 0.6666666666666666,
+      "mood": 0.5666666666666667,
+      "hair": 0.7,
+      "skin": 0.55
+    }
+  },
+  "base_constrained": {
+    "parse_rate": 1.0,
+    "macro_field_f1": 0.5033679499078433,
+    "per_field_f1": {
+      "cycle_day": 0.5666666666666667,
+      "flow": 0.7,
+      "spotting": 0.9833333333333333,
+      "symptoms": 0.11929824561403508,
+      "denied": 0.07766990291262137,
+      "no_symptoms_asserted": 0.26666666666666666,
+      "painkiller": 0.85,
+      "supplements": 0.4835164835164835,
+      "sleep_hours": 0.38333333333333336,
+      "sleep_quality": 0.26666666666666666,
+      "energy_level": 0.7166666666666667,
+      "mood": 0.6,
+      "hair": 0.6,
+      "skin": 0.43333333333333335
+    }
+  },
+  "ft_free": {
+    "parse_rate": 1.0,
+    "macro_field_f1": 0.8182156430647377,
+    "per_field_f1": {
+      "cycle_day": 0.9500000000000001,
+      "flow": 0.8000000000000002,
+      "spotting": 0.9166666666666666,
+      "symptoms": 0.2222222222222222,
+      "denied": 0.704225352112676,
+      "no_symptoms_asserted": 0.9166666666666666,
+      "painkiller": 0.9500000000000001,
+      "supplements": 0.6785714285714286,
+      "sleep_hours": 0.9666666666666667,
+      "sleep_quality": 0.7666666666666667,
+      "energy_level": 0.9,
+      "mood": 0.75,
+      "hair": 0.9833333333333333,
+      "skin": 0.9500000000000001
+    }
+  },
+  "ft_constrained": {
+    "parse_rate": 1.0,
+    "macro_field_f1": 0.8308083887943043,
+    "per_field_f1": {
+      "cycle_day": 0.9500000000000001,
+      "flow": 0.8166666666666667,
+      "spotting": 0.9166666666666666,
+      "symptoms": 0.272,
+      "denied": 0.732394366197183,
+      "no_symptoms_asserted": 0.9333333333333333,
+      "painkiller": 0.9500000000000001,
+      "supplements": 0.676923076923077,
+      "sleep_hours": 0.9666666666666667,
+      "sleep_quality": 0.8000000000000002,
+      "energy_level": 0.9,
+      "mood": 0.7666666666666667,
+      "hair": 0.9833333333333333,
+      "skin": 0.9666666666666667
+    }
+  }
+}

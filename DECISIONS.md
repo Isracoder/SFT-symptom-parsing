@@ -180,11 +180,12 @@ Four arms = 2×2 (same prompt, same schema, same runtime, same `max_new_tokens`)
 
 ## 6. Training
 
-- Qwen3-1.7B. **Not 4B** (out of scope unless finish early).
-- QLoRA via Unsloth: r=16, alpha=32, dropout 0.05, LR 2e-4, 2–3 epochs, max_seq_len 1024.
-- **Loss masked to completion tokens only.**
-- Early stopping on val loss, patience 1.
-- Qwen3 gotcha: disable thinking (`enable_thinking=False`), strip ` thinking` from targets, or JSON parsing breaks.
+- Qwen3-1.7B (`unsloth/Qwen3-1.7B`, safetensors BF16 — **not** the GGUF repo, which is inference-only). **Not 4B** (out of scope unless finish early).
+- QLoRA via Unsloth as run: r=16, alpha=32, dropout 0, LR 1e-4, 3 epochs, max_seq_len 1024, effective batch 16 (8 × grad accum 2), `adamw_8bit`, seed 42, plain `transformers.Trainer`.
+- **Loss masked to completion tokens only**, built manually: prompt tokens `-100`, target = compact 14-key JSON + `<|im_end|>`, labels padded with `-100`, attention mask padded with 0.
+- **Checkpoint per epoch; select on validation macro field-level F1**, not validation loss. With 250 examples, loss keeps improving while extraction quality degrades. Parse rate is checked before F1.
+- Qwen3 gotcha: disable thinking (`enable_thinking=False`) in training targets and at inference, or JSON parsing breaks.
+- Decoding for every evaluation cell: greedy (`do_sample=False`), `eos_token_id = <|im_end|>`, identical `SYSTEM_PROMPT`, max_new_tokens 400. The `max_new_tokens`/`max_length` warning is benign precedence, not an error.
 - Be able to justify every hyperparameter in one sentence.
 
 ---
@@ -194,6 +195,18 @@ Four arms = 2×2 (same prompt, same schema, same runtime, same `max_new_tokens`)
 - Primary: **Kaggle** (2×T4, 30h/wk, no random disconnects). Fallback: Colab free T4. Rental only if needed (prebuilt Unsloth image, ~€2–4 total).
 - Checkpoint adapter + eval results to Drive/HF **continuously**. Pre-download weights.
 - One runtime for all inference. Simplest: transformers + 4-bit bnb + outlines / lm-format-enforcer. Note latency is indicative, not production.
+
+**Constrained decoding as implemented (lm-format-enforcer).** `JsonSchemaParser(SCHEMA)` + `build_transformers_prefix_allowed_tokens_fn(tokenizer, parser)`, passed to `generate()` as `prefix_allowed_tokens_fn` — the only difference between the free and constrained arms. Two version landmines, both fixed in the working notebook:
+- `ImportError: cannot import name 'PreTrainedTokenizerBase' from 'transformers.tokenization_utils'` is **not** a missing package (the enforcer's fallback message lies). Shim before importing the integration: `from transformers.tokenization_utils_base import PreTrainedTokenizerBase; import transformers.tokenization_utils as _tu; _tu.PreTrainedTokenizerBase = PreTrainedTokenizerBase`.
+- **Mixed-type enums crash the parser** (`Unsupported enum type [... None]`), which silently truncates output at the first nullable enum (`{"cycle_day":null,"flow`). Nullable categoricals must be written as `anyOf: [{type: string, enum: [...]}, {type: null}]`, never as `enum` containing `None`. Non-nullable enums (`symptoms.name`, `denied`, `supplements`) stay plain `{type: string, enum: [...]}`.
+Schema: all 14 keys `required`, `additionalProperties: false`, nullable scalars as `type: [..., "null"]`. One deliberate looseness: `severity` allows `large` on any symptom (clot scale is not separated per symptom); check outputs for `large` on non-clot symptoms and split with `anyOf` if it appears.
+
+**Kaggle persistence checklist (learned the hard way).** `/kaggle/working` is **temporary scratch space, wiped when the session ends**. `save_pretrained` only writes to that disk; persistence is a separate, deliberate step. Everything worth citing in the README must leave `/kaggle/working`:
+1. Save the artifact (`model.save_pretrained`, predictions JSONL, metrics JSON, training logs).
+2. Zip it: `shutil.make_archive("/kaggle/working/<name>", "zip", "/kaggle/working/<name>")`.
+3. **Save Version → Output tab → download** the zip, and/or **Create Dataset** from the output so it can be attached to future notebooks.
+4. Persist at minimum: the selected LoRA adapter + tokenizer, all four evaluation cells' raw predictions, the metrics table, and the per-epoch validation scores.
+Reload without retraining: attach the dataset, `FastLanguageModel.from_pretrained("unsloth/Qwen3-1.7B", ...)` for a **clean** base, then `PeftModel.from_pretrained(base, "/kaggle/input/<dataset>/orba-adapter")`, then `FastLanguageModel.for_inference(...)` and `model.config.use_cache = True`. **Notebook definitions are not saved with the adapter** — `SYSTEM_PROMPT`, `SCHEMA`, `extract_with`, `serialize_facts`, `score_predictions`, the dataset loads, and `lm-format-enforcer` must all be re-run/reinstalled in a new session. Calling `PeftModel.from_pretrained` on a model that already has adapters stacks a second adapter (the `peft_config` warning); always start from a fresh base or `base.unload()`.
 
 ---
 

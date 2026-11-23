@@ -23,16 +23,17 @@
       "purpose": "model selection only"
     },
     "gold": {
-      "cards": "data/facts/gold_cards.jsonl",
-      "cards_sha256": "2f7f409d6a59c6c475ebb066d542e8c4b1b5d6d6951837adab7eaada818c9a3f",
+      "file": "data/text/gold_cards.jsonl",
+      "sha256": "a67471793cc27a810b5092bc8d843cc04819c0a45dcf3adf05b90479906c317c",
       "records": 60,
       "composition": "54 ordinary (18 each S8/S9/S10) + 6 specials",
-      "status": "AWAITING OWNER-HANDWRITTEN TEXT",
-      "rules": "handwritten by owner, never LLM-generated or paraphrased; freeze and hash before any evaluation; never used for model selection",
-      "date_arithmetic_reminders": {
-        "gold_S9_007": "cycle_day 6 -> 'period started 5 days ago'",
-        "gold_S10_007": "cycle_day 4 -> 'period started 3 days ago'"
-      }
+      "status": "FROZEN 2026-11-23 - handwritten by owner, reviewed, corrected, hashed",
+      "canonical_file_note": "single canonical gold file holding labels and text together; the earlier separate data/facts/gold_cards.jsonl was retired by owner decision",
+      "rules": "handwritten by owner, never LLM-generated or paraphrased; never used for model selection; no edits after evaluation without re-hash + changelog + full re-run",
+      "review": "reports/gold_review.md (initial 24 MUST FIX, post-fix re-review 22 resolved + final 2 confirmed fixed)",
+      "changelog": "reports/gold_changelog.md",
+      "leakage": {"exact_matches": 0, "max_4gram_jaccard_vs_train": 0.0222, "eight_gram_containment": 0},
+      "distractor_slice": ["gold_S8_001","gold_S8_004","gold_S10_014","gold_S8_008","gold_S9_005","gold_S9_016","gold_adversarial_001","gold_adversarial_002","gold_off_topic_001","gold_off_topic_002"]
     }
   },
   "superset": {
